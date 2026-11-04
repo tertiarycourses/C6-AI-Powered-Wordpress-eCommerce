@@ -1,0 +1,23 @@
+HARBOUR & CO — STORE SETUP SHEET (Lab 1)
+=========================================
+WooCommerce setup wizard
+  Which one of these best describes you?  I'm already selling → Yes, in person (studio shop)
+  Store name                              Harbour & Co
+  Industry                                Clothing and accessories
+  Store location                          Singapore
+  Free features step                      Skip this step (we add plugins ourselves)
+
+WooCommerce > Settings > General
+  Address line 1 / 2                      71 Ayer Rajah Crescent / #02-18
+  City / Postcode                         Singapore / 139951
+  Selling location(s)                     Sell to specific countries → Singapore
+  Enable taxes                            ticked
+  Currency                                Singapore dollar (S$)   Position: Left   Decimals: 2
+
+WooCommerce > Settings > Tax
+  Prices entered with tax                 Yes, I will enter prices inclusive of tax
+  Standard rates → Insert row             Country SG · Rate 9.0000 · Name GST · Priority 1
+
+Theme                                     Storefront (Appearance > Themes > Add New Theme)
+Plugin                                    Harbour & Co Toolkit (this folder: plugin/harbour-co-toolkit.zip)
+Roles                                     Rachel Lim = Administrator · Daniel Koh = Shop manager

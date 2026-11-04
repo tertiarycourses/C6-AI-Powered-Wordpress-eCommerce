@@ -1,0 +1,55 @@
+# Harbour & Co — local WordPress + WooCommerce sandbox for Build a Professional eCommerce Store with Generative AI (C6).
+# Mirrors the classroom demo sites so trainers can rehearse every lab offline.
+#   docker compose up -d          → http://localhost:8088  (admin: /wp-admin)
+#   bash setup.sh                 → installs WooCommerce, Storefront, the lab plugins and the
+#                                   Harbour & Co reference store (the state learners reach after Lab 7)
+#   docker compose down -v        → wipe everything (like the nightly reset of wp1–wp5)
+name: harbour-co
+services:
+  db:
+    image: mariadb:11
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: wordpress
+      MARIADB_RANDOM_ROOT_PASSWORD: "1"
+    volumes: [db:/var/lib/mysql]
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      retries: 30
+  wordpress:
+    image: wordpress:php8.3-apache
+    restart: unless-stopped
+    depends_on: { db: { condition: service_healthy } }
+    ports: ["8088:80"]
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_MEMORY_LIMIT', '256M');
+        define('FS_METHOD', 'direct');
+    volumes:
+      - wp:/var/www/html
+      - ../labs:/labs:ro
+      - ./php.ini:/usr/local/etc/php/conf.d/zz-harbour.ini:ro
+  cli:
+    image: wordpress:cli-php8.3
+    user: "33:33"
+    depends_on: [wordpress]
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+      WP_CLI_CACHE_DIR: /tmp/wp-cli-cache
+    volumes:
+      - wp:/var/www/html
+      - ../labs:/labs:ro
+      - ./seed:/seed:ro
+    entrypoint: ["php", "-d", "memory_limit=512M", "/usr/local/bin/wp"]
+    profiles: ["cli"]
+volumes: { db: {}, wp: {} }

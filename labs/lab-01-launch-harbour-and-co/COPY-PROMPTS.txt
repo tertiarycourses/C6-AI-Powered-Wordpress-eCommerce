@@ -1,0 +1,17 @@
+LAB 1 — Launch Harbour & Co — WooCommerce Plus an AI-Designed Homepage
+Build a Professional eCommerce Store with Generative AI (C6) · paste each prompt into ChatGPT
+========================================================================
+
+Before the first prompt: attach data/brand-brief.txt (paperclip icon in ChatGPT).
+
+[PROMPT 1] Step 8 — Ask ChatGPT to design the homepage
+------------------------------------------------------------------------
+ROLE: You are a senior eCommerce web designer who builds WooCommerce storefronts.
+CONTEXT: The attached brand brief describes Harbour & Co, a Singapore fashion label. The site runs WordPress with the Storefront theme. The page will go inside ONE WordPress 'Custom HTML' block.
+TASK: Write the homepage as a single self-contained HTML snippet with these sections in order:
+1. Hero — headline, one-line pitch, two buttons: 'Shop Resort Linen' (/product-category/apparel/) and 'Our story' (/about-us/)
+2. Three collection cards — The Everyday Edit, Resort Linen, Layers — one sentence each
+3. A trust bar — free delivery above S$100, 14-day returns, PayNow and card, studio pickup
+4. A short founder note from Rachel Lim (3 sentences)
+CONSTRAINTS: Use only inline CSS in a <style> block scoped to a .hc-home wrapper. Colours #1B2A41, #5FA8A0, #EFE6D8, #E4774F; font Lato. No JavaScript, no external images, no <html>/<head>/<body> tags. Mobile-friendly (stack cards under 700px). Use British spelling. Prices in S$ including 9% GST. Do not invent facts, reviews, awards or sustainability claims.
+FORMAT: One HTML code block, then a 3-bullet list of any claim I should double-check.

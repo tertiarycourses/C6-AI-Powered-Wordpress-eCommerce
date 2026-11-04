@@ -1,0 +1,27 @@
+/* Harbour & Co Toolkit — brand layer over Storefront */
+:root { --hc-navy:#1B2A41; --hc-sea:#5FA8A0; --hc-sand:#EFE6D8; --hc-coral:#E4774F; }
+body, button, input, select, textarea { font-family: "Lato", "Helvetica Neue", Arial, sans-serif; }
+h1, h2, h3, h4, .site-title { font-family: "Lato", "Helvetica Neue", Arial, sans-serif; font-weight: 900; letter-spacing: -0.01em; color: var(--hc-navy); }
+.site-header { background: var(--hc-navy) !important; border-bottom: 0; }
+.site-header .site-title a, .site-header .site-description,
+.site-header .main-navigation ul li a, .site-header .site-header-cart a { color: #fff !important; }
+.site-header .site-search { display: none; }
+.storefront-primary-navigation { background: var(--hc-navy); }
+button, .button, input[type="submit"], .wp-element-button, .wp-block-button__link,
+.added_to_cart, .widget a.button { background: var(--hc-coral) !important; border-color: var(--hc-coral) !important; color: #fff !important; border-radius: 6px; }
+.button.alt, button.alt, .single_add_to_cart_button { background: var(--hc-navy) !important; border-color: var(--hc-navy) !important; }
+.price, .amount { color: var(--hc-navy); font-weight: 700; }
+.onsale { background: var(--hc-coral); color: #fff; border: 0; border-radius: 4px; }
+.site-footer { background: var(--hc-sand); color: var(--hc-navy); }
+.site-footer a { color: var(--hc-navy); }
+/* the static front page shows the designed page, not the word "Home" */
+.home.page .entry-header, .home.page .storefront-breadcrumb { display: none; }
+.home.page .site-content { padding-top: 0; }
+/* patterns */
+.hc-hero { background: var(--hc-navy); color: #fff; padding: 72px 32px; border-radius: 14px; margin-bottom: 32px; }
+.hc-hero h1 { color: #fff; font-size: 3em; margin: 0 0 12px; }
+.hc-hero .hc-kicker { color: var(--hc-sea); text-transform: uppercase; letter-spacing: .12em; font-weight: 700; margin: 0 0 8px; }
+.hc-collections .wp-block-column { background: #fff; border: 1px solid #E8E0D2; border-radius: 12px; padding: 22px; }
+.hc-trust { background: var(--hc-sand); border-radius: 12px; padding: 18px 22px; margin: 32px 0; text-align: center; color: var(--hc-navy); }
+.hc-section-title { margin-top: 24px; }
+.hc-policy-links { text-align: center; font-size: .95em; }

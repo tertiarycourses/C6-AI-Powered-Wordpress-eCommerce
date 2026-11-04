@@ -1,0 +1,5 @@
+Type,SKU,Name,Published,Short description,Regular price,Sale price,Categories,Tags,In stock?,Stock,Weight (kg)
+simple,RESORT-SHIRT-001,Resort Linen Camp Shirt,1,Camp-collar shirt in 150 gsm European linen with a sea-glass palm print. Cut loose for 32°C days.,59.90,,Apparel > Shirts,"linen, resort, breathable",1,30,0.25
+simple,TROUSER-LINEN-001,Linen Wide-Leg Trousers,1,High-rise wide-leg trousers in a linen-cotton blend. Air moves; creases stay polite.,69.90,,Apparel > Bottoms,"linen, resort, relaxed",1,30,0.4
+simple,SKIRT-MIDI-001,Pleated Midi Skirt,1,Knife-pleated midi skirt that moves when you walk and never needs ironing.,54.90,46.90,Apparel > Bottoms,"pleated, office, flowy",1,25,0.3
+simple,BAG-RATTAN-001,Rattan Crossbody Bag,1,"Hand-woven round rattan bag with a leather crossbody strap. Holds phone, card holder and keys.",45.90,,Accessories,"rattan, resort, handmade",1,20,0.35

@@ -1,0 +1,13 @@
+LAB 4 — AI Drafts the Policies, You Switch On Payments and Shipping
+Build a Professional eCommerce Store with Generative AI (C6) · paste each prompt into ChatGPT
+========================================================================
+
+Before the first prompt: attach data/brand-brief.txt (paperclip icon in ChatGPT).
+
+[PROMPT 1] Step 1 — Draft the four policy pages
+------------------------------------------------------------------------
+ROLE: You are an eCommerce operations writer for small Singapore retailers.
+CONTEXT: Harbour & Co (brief attached). The attached policy facts are the ONLY source of fees, days and contacts.
+TASK: Draft four customer-facing pages: 1) Privacy Policy aligned to Singapore's Personal Data Protection Act 2012 (PDPA) — what we collect at checkout, why, who we share it with (payment and delivery partners), retention, the customer's access and correction rights, our Data Protection Officer contact; 2) Returns & Refunds; 3) Shipping & Delivery; 4) Payment Methods.
+CONSTRAINTS: Plain English, short headed sections, under 350 words per page. Use only the facts given — if a fact is missing write [TO CONFIRM]. Use British spelling. Prices in S$ including 9% GST. Do not invent facts, reviews, awards or sustainability claims.
+FORMAT: Four Markdown sections, each starting with the page title as a # heading.

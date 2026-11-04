@@ -1,13 +1,28 @@
-.DS_Store
-.env
-.claude/
+# Private — never published
 assessment/
 reference/
+**/reference/
+.env
+.env.*
+
+# Read-only WSQ source this course was duplicated from
+source-wsq/
+
+# Local generator (course-local copy of the parent build) and its caches
+build/
+
+# Superseded versions
+archive/
 courseware/archive/
-courseware/assets/
-courseware/build/
-courseware/qa/
-**/__pycache__/
+
+# Distribution archives (rebuildable)
+*.zip
+
+# OS / Office / tooling junk
+.DS_Store
 ~$*
 *.tmp
-source-wsq/
+**/__pycache__/
+*.pyc
+.claude/
+.playwright-mcp/

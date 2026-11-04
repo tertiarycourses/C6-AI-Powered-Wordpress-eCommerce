@@ -1,6 +1,6 @@
-# AI Powered Wordpress eCommerce
+# Build a Professional eCommerce Store with Generative AI
 
-A one-day, hands-on course on building, running and measuring an online store with WordPress and WooCommerce.
+A one-day, hands-on course on setting up, running and marketing a WooCommerce store with Generative AI as your co-worker.
 
 | Course detail | Information |
 |---|---|
@@ -8,13 +8,13 @@ A one-day, hands-on course on building, running and measuring an online store wi
 | Programme | Non-WSQ |
 | Duration | 1 day · 9:30am – 5:30pm · 7.5 instructional hours |
 | Delivery | Instructor-led classroom with hands-on labs on a live WordPress + WooCommerce store |
-| Registration | [View course details and register](https://www.tertiarycourses.com.sg/ai-powered-wordpress-ecommerce.html) |
+| Registration | [View course details and register](https://www.tertiarycourses.com.sg/build-a-professional-ecommerce-store-with-generative-ai.html) |
 
 ![Course cover](screenshot.png)
 
 ## About the course
 
-Learners build one continuous store — **Harbour & Co**, a small Singapore apparel and accessories retailer going online — from an empty WordPress install to a working, measured shop. Along the way they set up WooCommerce, curate a product catalogue, configure payments and shipping, run day-to-day orders, refunds and promotions, and read the reports that show whether the store is working.
+Learners build one online store — **Harbour & Co**, a Singapore fashion label making breathable city wear for the tropics — from an empty WordPress site, with ChatGPT drafting the work and the learner checking and approving it. AI designs the homepage, shoots and writes the products, builds the catalogue CSV, drafts the store policies, writes the SEO and the launch campaign; the learner checks every fact against the brief and decides what goes live. The day runs as one storyline: set the store up with GenAI (Labs 1–5), get it found in search (Lab 6), then market the launch and read the results (Lab 7).
 
 ## Learning outcomes
 
@@ -27,38 +27,60 @@ Learners build one continuous store — **Harbour & Co**, a small Singapore appa
 
 ## Topics covered
 
-1. Overview of WooCommerce CMS
-2. Manage Products on WooCommerce Store
-3. Manage Payments and Shipping
-4. Manage Sales on WooCommerce Store
-5. Manage WooCommerce Performance
-
-## Public package
-
-| Artifact | Purpose |
-|---|---|
-| [Course slides](courseware/AI%20Powered%20Wordpress%20eCommerce-v1.0.pdf) | 128-slide visual deck ([editable PPTX](courseware/AI%20Powered%20Wordpress%20eCommerce-v1.0.pptx)) |
-| [Learner Guide](courseware/LG-AI%20Powered%20Wordpress%20eCommerce.pdf) | Concepts and full step-by-step lab instructions ([DOCX](courseware/LG-AI%20Powered%20Wordpress%20eCommerce.docx) · [Markdown](LG-AI%20Powered%20Wordpress%20eCommerce.md)) |
-| [Lesson Plan](courseware/LP-AI%20Powered%20Wordpress%20eCommerce.pdf) | One-day schedule (9:30am – 5:30pm) and topic/lab mapping ([DOCX](courseware/LP-AI%20Powered%20Wordpress%20eCommerce.docx)) |
-| [Lab index](labs/README.md) | Entry point to the seven hands-on labs and the demo training sites |
-| [Sample product CSV](labs/data/harbour-co-products.csv) | Harbour & Co catalogue data for the import lab |
+1. AI for WordPress and WooCommerce — choosing ChatGPT, Gemini or Claude, model tiers, effective prompts, WordPress AI Connectors
+2. Overview of WooCommerce CMS — installing WooCommerce, the setup wizard, themes, widgets, settings, currency and tax
+3. Manage Products on WooCommerce Store — product types, AI product photos and copy, variations, categories and attributes, CSV import
+4. Manage Payments and Shipping — store policies, payment methods and gateways, shipping zones, flat rate, free shipping and local pickup
+5. Manage Sales on WooCommerce Store — orders and statuses, refunds and restocking, coupons and promotions
+6. Manage WooCommerce Performance — reports and analytics, eCommerce metrics, Google Analytics
+7. SEO in the Age of AI Search — SEO, AEO and GEO, E-E-A-T, AI for SEO, on-page SEO, digital marketing with GenAI
 
 ## Labs
 
-| # | Lab |
-|---:|---|
-| 1 | [Set Up Your WooCommerce Store](labs/lab-01-set-up-your-woocommerce-store.md) |
-| 2 | [Create and Curate a Simple Product](labs/lab-02-create-and-curate-a-simple-product.md) |
-| 3 | [Create a Variable Product with Attributes and Variations](labs/lab-03-create-a-variable-product-with-attributes-and-variations.md) |
-| 4 | [Curate the Catalogue — Linked Products and CSV Import](labs/lab-04-curate-the-catalogue-linked-products-and-csv-import.md) |
-| 5 | [Configure Payment Methods and Shipping Zones](labs/lab-05-configure-payment-methods-and-shipping-zones.md) |
-| 6 | [Process Orders, Refunds and Coupons](labs/lab-06-process-orders-refunds-and-coupons.md) |
-| 7 | [Measure Store Performance with Reports and Analytics](labs/lab-07-measure-store-performance-with-reports-and-analytics.md) |
+Each lab folder holds an instructions PDF with a Prompt Playbook page, `COPY-PROMPTS.txt`, mock data, product assets and templates. All prompts are also on the offline [Lab Prompts page](labs/prompts/index.html).
 
-## Distribution boundary
+| Lab | Title |
+|---|---|
+| 1 | [Launch Harbour & Co — WooCommerce Plus an AI-Designed Homepage](labs/lab-01-launch-harbour-and-co/) |
+| 2 | [Shoot and Write a Product with AI](labs/lab-02-ai-product-photos-and-copy/) |
+| 3 | [Let AI Build the New-Season Catalogue](labs/lab-03-ai-builds-the-catalogue/) |
+| 4 | [AI Drafts the Policies, You Switch On Payments and Shipping](labs/lab-04-ai-policies-payments-shipping/) |
+| 5 | [Run a Day of Orders — Refund, Restock, Reply with AI](labs/lab-05-orders-refunds-ai-replies/) |
+| 6 | [Get Found — AI Writes the SEO, You Approve It](labs/lab-06-ai-seo/) |
+| 7 | [Launch the Resort Linen Drop — Social, Newsletter, Results](labs/lab-07-ai-digital-marketing/) |
 
-This public repository carries learner-facing courseware and labs only. The demo WordPress training sites are wiped and re-imaged before every class, so their classroom logins are shared openly in the lab index. Build tooling and reference material are deliberately excluded.
+## Courseware
 
-Provided by **Tertiary Infotech Academy Pte Ltd** (UEN 201200696W) · [tertiarycourses.com.sg](https://www.tertiarycourses.com.sg/)
+| Artifact | Files |
+|---|---|
+| Slide deck (v2.0) | [PPTX](courseware/Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI-v2.0.pptx) · [PDF](courseware/Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI-v2.0.pdf) |
+| Lesson Plan | [DOCX](courseware/LP-Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI.docx) · [PDF](courseware/LP-Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI.pdf) |
+| Learner Guide | [DOCX](courseware/LG-Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI.docx) · [PDF](courseware/LG-Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI.pdf) · [Markdown](LG-Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI.md) |
 
-© 2026 Tertiary Infotech Academy Pte Ltd. All rights reserved.
+## Rebuild the store at home
+
+The [`docker/`](docker/) folder builds the finished Harbour & Co store locally with the same plugins and data used in class:
+
+```bash
+cd docker
+docker compose up -d
+bash setup.sh
+# then open http://localhost:8088  (admin: /wp-admin)
+```
+
+## Repository structure
+
+```text
+courseware/   slide deck, Lesson Plan and Learner Guide (editable + PDF)
+labs/         seven lab folders and the offline Lab Prompts page
+docker/       local WordPress + WooCommerce sandbox of the finished store
+assets/       screenshots and images referenced by the Learner Guide
+```
+
+## Distribution
+
+This repository holds the public learner courseware. Trainer-only material is kept off GitHub. Harbour & Co is a fictional brand and all store data is synthetic. The demo training sites listed in the labs are reset before every class and must not be used for a real shop.
+
+---
+
+Provided by [Tertiary Infotech Academy Pte Ltd](https://www.tertiarycourses.com.sg) · enquiry@tertiaryinfotech.com · +65 6100 0613

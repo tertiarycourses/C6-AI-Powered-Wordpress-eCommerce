@@ -1,0 +1,12 @@
+PRODUCT SPEC — Cotton Cap (CAP-COTTON-001)
+============================================================
+Price        S$19.90 (incl. 9% GST)
+Category     Accessories
+Tags         cotton, cap, everyday
+Stock        60 units
+Weight       0.1 kg
+Fabric       Washed cotton twill
+Fit          Adjustable strap, one size
+Care         Hand wash, reshape while damp
+Chest width  n/a (cm, garment laid flat)
+Do not claim cooling, anti-sweat or sustainability benefits — we have no test data for them.

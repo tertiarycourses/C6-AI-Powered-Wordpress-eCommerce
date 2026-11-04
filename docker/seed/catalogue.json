@@ -1,0 +1,328 @@
+{
+ "catalogue": [
+  {
+   "name": "Classic Cotton T-Shirt",
+   "sku": "TSHIRT-CLASSIC-001",
+   "type": "",
+   "regular": "29.90",
+   "sale": "24.90",
+   "cat": "Apparel > Shirts",
+   "tags": "cotton, unisex, casual",
+   "stock": 50,
+   "weight": "0.2",
+   "short": "Soft 100% combed cotton tee in a relaxed unisex fit. Pre-shrunk and machine-washable — made for Singapore heat.",
+   "long": [
+    "Our best-selling basic, cut from 180 gsm combed cotton that stays soft wash after wash. The relaxed unisex fit sits easy at the shoulder and skims the body, so it works tucked into trousers or worn loose on the weekend.",
+    "It is pre-shrunk, so the size you buy is the size you keep. Wear it under the Classic Denim Jacket for the office, or on its own from MRT to hawker centre."
+   ],
+   "fabric": "100% combed cotton, 180 gsm, pre-shrunk",
+   "fit": "Relaxed unisex fit; true to size",
+   "care": "Machine wash cold, line dry",
+   "csv": "",
+   "alt": "White Harbour & Co classic cotton t-shirt laid flat on a sand background",
+   "meta_title": "Classic Cotton T-Shirt Singapore | Harbour & Co",
+   "meta_desc": "Soft 180 gsm combed cotton tee in a relaxed unisex fit. Pre-shrunk, machine-washable, made for Singapore heat. Free delivery above S$100.",
+   "keyword": "cotton t-shirt singapore"
+  },
+  {
+   "name": "Premium Polo Shirt",
+   "sku": "POLO-PREMIUM-001",
+   "type": "variable",
+   "regular": "39.90",
+   "sale": "",
+   "cat": "Apparel > Shirts",
+   "tags": "polo, smart-casual",
+   "stock": 25,
+   "weight": "0.25",
+   "short": "Cotton piqué polo with a tailored fit — smart enough for client meetings, cool enough for the walk there.",
+   "long": [
+    "A two-button polo in breathable 210 gsm cotton piqué. The ribbed collar holds its shape under a blazer, and the tailored cut keeps the line clean at the waist.",
+    "Choose Black or White in S, M or L. Large is cut longer in the body and priced at S$41.90."
+   ],
+   "fabric": "Cotton piqué, 210 gsm",
+   "fit": "Tailored fit; sizes S, M, L",
+   "care": "Machine wash cold, do not tumble dry",
+   "csv": "",
+   "alt": "Black Harbour & Co premium polo shirt with ribbed collar, flat lay",
+   "meta_title": "Premium Cotton Piqué Polo Shirt | Harbour & Co",
+   "meta_desc": "Tailored cotton piqué polo in Black or White, sizes S–L. Smart enough for meetings, breathable for Singapore weather. From S$39.90.",
+   "keyword": "polo shirt men singapore"
+  },
+  {
+   "name": "Cotton Cap",
+   "sku": "CAP-COTTON-001",
+   "type": "",
+   "regular": "19.90",
+   "sale": "",
+   "cat": "Accessories",
+   "tags": "cotton, cap, everyday",
+   "stock": 60,
+   "weight": "0.1",
+   "short": "Washed cotton twill cap with an adjustable strap. Shade for the queue, style for the photo.",
+   "long": [
+    "A six-panel cap in washed cotton twill with a pre-curved brim and an adjustable back strap.",
+    "Harbour Navy goes with everything in the Everyday Edit."
+   ],
+   "fabric": "Washed cotton twill",
+   "fit": "Adjustable strap, one size",
+   "care": "Hand wash, reshape while damp",
+   "csv": "",
+   "alt": "Navy washed cotton cap with a curved brim on a sand background",
+   "meta_title": "Washed Cotton Cap in Harbour Navy | Harbour & Co",
+   "meta_desc": "Six-panel washed cotton twill cap with a pre-curved brim and adjustable strap. One size, Harbour Navy. S$19.90 from Harbour & Co.",
+   "keyword": "cotton cap singapore"
+  },
+  {
+   "name": "Linen Summer Shirt",
+   "sku": "LINEN-SHIRT-001",
+   "type": "",
+   "regular": "49.90",
+   "sale": "",
+   "cat": "Apparel > Shirts",
+   "tags": "linen, summer, breathable",
+   "stock": 40,
+   "weight": "0.25",
+   "short": "Lightweight 100% linen shirt, cut for hot-weather comfort.",
+   "long": [
+    "Washed linen that softens every time you wear it. A regular fit with a soft collar and a curved hem you can leave untucked."
+   ],
+   "fabric": "100% linen",
+   "fit": "Regular fit",
+   "care": "Machine wash cold, iron while damp",
+   "csv": "core",
+   "alt": "Pale sea-glass linen summer shirt with soft collar, flat lay",
+   "meta_title": "Linen Summer Shirt Singapore | Harbour & Co",
+   "meta_desc": "Lightweight 100% linen shirt cut for hot-weather comfort. Washed for softness, regular fit, curved hem. S$49.90, free delivery over S$100.",
+   "keyword": "linen shirt singapore"
+  },
+  {
+   "name": "Classic Denim Jacket",
+   "sku": "JACKET-DENIM-001",
+   "type": "",
+   "regular": "89.90",
+   "sale": "79.90",
+   "cat": "Apparel > Outerwear",
+   "tags": "denim, unisex",
+   "stock": 25,
+   "weight": "0.7",
+   "short": "A timeless unisex denim jacket in mid-wash indigo.",
+   "long": [
+    "The layer for the 20°C office. Mid-wash 12 oz denim with two chest pockets and copper-tone buttons."
+   ],
+   "fabric": "12 oz cotton denim",
+   "fit": "Unisex regular fit",
+   "care": "Wash inside out, cold",
+   "csv": "core",
+   "alt": "Mid-wash indigo denim jacket with two chest pockets, flat lay",
+   "meta_title": "Classic Denim Jacket, Mid-Wash | Harbour & Co",
+   "meta_desc": "Unisex mid-wash denim jacket in 12 oz cotton — the layer for cold offices and travel. Now S$79.90 (was S$89.90) at Harbour & Co.",
+   "keyword": "denim jacket singapore"
+  },
+  {
+   "name": "Canvas Tote Bag",
+   "sku": "TOTE-CANVAS-001",
+   "type": "",
+   "regular": "24.90",
+   "sale": "",
+   "cat": "Accessories",
+   "tags": "canvas, everyday",
+   "stock": 60,
+   "weight": "0.3",
+   "short": "Heavy-duty canvas tote for groceries, gym and laptops.",
+   "long": [
+    "Heavy cotton canvas with reinforced handles and an inside pocket. Fits a 14-inch laptop."
+   ],
+   "fabric": "Heavy cotton canvas",
+   "fit": "38 x 42 cm, 25 cm handles",
+   "care": "Spot clean",
+   "csv": "core",
+   "alt": "Natural canvas tote bag with two handles on a sand background",
+   "meta_title": "Heavy Canvas Tote Bag | Harbour & Co Singapore",
+   "meta_desc": "Heavy cotton canvas tote with reinforced handles and an inside pocket — fits a 14-inch laptop. S$24.90 from Harbour & Co, Singapore.",
+   "keyword": "canvas tote bag singapore"
+  },
+  {
+   "name": "Merino Wool Scarf",
+   "sku": "SCARF-MERINO-001",
+   "type": "",
+   "regular": "34.90",
+   "sale": "",
+   "cat": "Accessories",
+   "tags": "merino, winter, travel",
+   "stock": 35,
+   "weight": "0.15",
+   "short": "Ultra-soft merino scarf for travel and air-conditioned offices.",
+   "long": [
+    "Fine merino that keeps the office chill off without the itch. Folds small for the cabin bag."
+   ],
+   "fabric": "100% merino wool",
+   "fit": "180 x 30 cm",
+   "care": "Hand wash cold, dry flat",
+   "csv": "core",
+   "alt": "Grey-blue merino wool scarf folded with fringed ends",
+   "meta_title": "Merino Wool Scarf for Office and Travel | Harbour & Co",
+   "meta_desc": "Ultra-soft 100% merino scarf for air-conditioned offices and long flights. 180 x 30 cm, folds small. S$34.90 at Harbour & Co.",
+   "keyword": "merino scarf singapore"
+  },
+  {
+   "name": "Leather Belt",
+   "sku": "BELT-LEATHER-001",
+   "type": "",
+   "regular": "32.90",
+   "sale": "",
+   "cat": "Accessories",
+   "tags": "leather, formal",
+   "stock": 45,
+   "weight": "0.2",
+   "short": "Full-grain leather belt with a brushed-steel buckle.",
+   "long": [
+    "A 3.5 cm full-grain leather belt that darkens with wear. Brushed-steel buckle, five holes."
+   ],
+   "fabric": "Full-grain leather, brushed-steel buckle",
+   "fit": "Sizes 30–38 inch",
+   "care": "Wipe clean, condition yearly",
+   "csv": "core",
+   "alt": "Brown full-grain leather belt with brushed-steel buckle, coiled",
+   "meta_title": "Full-Grain Leather Belt | Harbour & Co Singapore",
+   "meta_desc": "3.5 cm full-grain leather belt with a brushed-steel buckle, sizes 30–38 inch. Ages well, wipes clean. S$32.90 from Harbour & Co.",
+   "keyword": "leather belt singapore"
+  },
+  {
+   "name": "Resort Linen Camp Shirt",
+   "sku": "RESORT-SHIRT-001",
+   "type": "",
+   "regular": "59.90",
+   "sale": "",
+   "cat": "Apparel > Shirts",
+   "tags": "linen, resort, breathable",
+   "stock": 30,
+   "weight": "0.25",
+   "short": "Camp-collar shirt in 150 gsm European linen with a sea-glass palm print. Cut loose for 32°C days.",
+   "long": [
+    "The hero of the Resort Linen Drop. A relaxed camp-collar shirt in 150 gsm European linen, printed with a sea-glass palm motif drawn in our studio.",
+    "Boxy through the body and a touch shorter at the hem, so it looks right untucked over the Linen Wide-Leg Trousers."
+   ],
+   "fabric": "100% European linen, 150 gsm",
+   "fit": "Relaxed camp-collar fit",
+   "care": "Machine wash cold, line dry",
+   "csv": "new",
+   "alt": "Sand linen camp-collar shirt with sea-glass palm print, flat lay",
+   "meta_title": "Resort Linen Camp Shirt, Palm Print | Harbour & Co",
+   "meta_desc": "Relaxed camp-collar shirt in 150 gsm European linen with a sea-glass palm print. Made for 32°C days. S$59.90 — part of the Resort Linen Drop.",
+   "keyword": "linen camp shirt singapore"
+  },
+  {
+   "name": "Linen Wide-Leg Trousers",
+   "sku": "TROUSER-LINEN-001",
+   "type": "",
+   "regular": "69.90",
+   "sale": "",
+   "cat": "Apparel > Bottoms",
+   "tags": "linen, resort, relaxed",
+   "stock": 30,
+   "weight": "0.4",
+   "short": "High-rise wide-leg trousers in a linen-cotton blend. Air moves; creases stay polite.",
+   "long": [
+    "A 55/45 linen-cotton blend that keeps linen's breathability with fewer creases. High rise, wide leg, an elastic back waist and two deep pockets."
+   ],
+   "fabric": "Linen-cotton blend (55/45)",
+   "fit": "High rise, wide leg, elastic back waist",
+   "care": "Machine wash cold",
+   "csv": "new",
+   "alt": "Sand-coloured linen wide-leg trousers laid flat",
+   "meta_title": "Linen Wide-Leg Trousers Singapore | Harbour & Co",
+   "meta_desc": "High-rise wide-leg trousers in a breathable linen-cotton blend, with an elastic back and deep pockets. S$69.90 from Harbour & Co.",
+   "keyword": "linen trousers singapore"
+  },
+  {
+   "name": "Pleated Midi Skirt",
+   "sku": "SKIRT-MIDI-001",
+   "type": "",
+   "regular": "54.90",
+   "sale": "46.90",
+   "cat": "Apparel > Bottoms",
+   "tags": "pleated, office, flowy",
+   "stock": 25,
+   "weight": "0.3",
+   "short": "Knife-pleated midi skirt that moves when you walk and never needs ironing.",
+   "long": [
+    "Knife pleats in a fluid recycled-polyester crepe, set on a soft elastic waist. Midi length for the office, light enough for the walk home."
+   ],
+   "fabric": "Recycled polyester crepe",
+   "fit": "Midi length, elastic waist",
+   "care": "Machine wash cold, hang dry",
+   "csv": "new",
+   "alt": "Navy knife-pleated midi skirt laid flat on sand",
+   "meta_title": "Pleated Midi Skirt in Harbour Navy | Harbour & Co",
+   "meta_desc": "Knife-pleated midi skirt in fluid crepe on an elastic waist. Office-ready and never needs ironing. Now S$46.90 (was S$54.90).",
+   "keyword": "pleated midi skirt singapore"
+  },
+  {
+   "name": "Rattan Crossbody Bag",
+   "sku": "BAG-RATTAN-001",
+   "type": "",
+   "regular": "45.90",
+   "sale": "",
+   "cat": "Accessories",
+   "tags": "rattan, resort, handmade",
+   "stock": 20,
+   "weight": "0.35",
+   "short": "Hand-woven round rattan bag with a leather crossbody strap. Holds phone, card holder and keys.",
+   "long": [
+    "Hand-woven rattan on a round 18 cm frame, lined in cotton with a magnetic clasp. The adjustable leather strap wears crossbody or on the shoulder."
+   ],
+   "fabric": "Hand-woven rattan, cotton lining, leather strap",
+   "fit": "18 cm diameter",
+   "care": "Wipe with a dry cloth",
+   "csv": "new",
+   "alt": "Round hand-woven rattan crossbody bag with leather strap",
+   "meta_title": "Round Rattan Crossbody Bag | Harbour & Co Singapore",
+   "meta_desc": "Hand-woven 18 cm round rattan bag with cotton lining and an adjustable leather crossbody strap. S$45.90 — Resort Linen Drop.",
+   "keyword": "rattan bag singapore"
+  }
+ ],
+ "polo": [
+  [
+   "S",
+   "Black",
+   "POLO-S-BLK",
+   "39.90"
+  ],
+  [
+   "M",
+   "Black",
+   "POLO-M-BLK",
+   "39.90"
+  ],
+  [
+   "L",
+   "Black",
+   "POLO-L-BLK",
+   "41.90"
+  ],
+  [
+   "S",
+   "White",
+   "POLO-S-WHT",
+   "39.90"
+  ],
+  [
+   "M",
+   "White",
+   "POLO-M-WHT",
+   "39.90"
+  ],
+  [
+   "L",
+   "White",
+   "POLO-L-WHT",
+   "41.90"
+  ]
+ ],
+ "resort": [
+  "RESORT-SHIRT-001",
+  "TROUSER-LINEN-001",
+  "BAG-RATTAN-001",
+  "LINEN-SHIRT-001"
+ ]
+}

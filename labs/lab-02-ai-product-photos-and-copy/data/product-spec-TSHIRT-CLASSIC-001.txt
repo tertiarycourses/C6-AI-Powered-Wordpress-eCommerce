@@ -1,0 +1,12 @@
+PRODUCT SPEC — Classic Cotton T-Shirt (TSHIRT-CLASSIC-001)
+============================================================
+Price        S$29.90 · launch sale S$24.90 (incl. 9% GST)
+Category     Apparel > Shirts
+Tags         cotton, unisex, casual
+Stock        50 units
+Weight       0.2 kg
+Fabric       100% combed cotton, 180 gsm, pre-shrunk
+Fit          Relaxed unisex fit; true to size
+Care         Machine wash cold, line dry
+Chest width  S 50 · M 53 · L 56 · XL 59 (cm, garment laid flat)
+Do not claim cooling, anti-sweat or sustainability benefits — we have no test data for them.

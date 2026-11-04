@@ -1,0 +1,31 @@
+HARBOUR & CO — BRAND BRIEF (paste or attach this in every ChatGPT chat)
+=====================================================================
+Who we are   Harbour & Co is a Singapore fashion label founded in 2019 by Rachel Lim.
+             We make breathable city wear for the tropics: clothes that survive a hot
+             commute and a cold office on the same day.
+Studio shop  71 Ayer Rajah Crescent, #02-18, Singapore 139951 · open Tue–Sun, 11am–7pm
+Online store WooCommerce on WordPress (the store you build today)
+Email        hello@harbourandco.example
+
+Customers    Singapore professionals aged 25–40. They walk between MRT, office and
+             hawker centre in 32°C heat, then sit in 20°C air-conditioning. They buy
+             fewer, better pieces and care how a fabric is made.
+
+Collections  The Everyday Edit — cotton tees, polos and caps (all year)
+             Resort Linen      — linen shirts, trousers, rattan bag (new season, Nov launch)
+             Layers            — denim jacket and merino scarf for cold offices and travel
+             Accessories       — tote, belt, cap, crossbody bag
+
+Voice        Warm, crisp, confident. Short sentences. Concrete facts over adjectives
+             (fabric weight, fibre, fit, care). No hype words: no "game-changer",
+             "elevate", "must-have", "luxurious". British spelling. Prices in S$,
+             inclusive of 9% GST.
+
+Look         Harbour Navy #1B2A41 · Sea Glass #5FA8A0 · Sand #EFE6D8 · Coral #E4774F
+             Typeface Lato. Photography: soft daylight, sand or linen backgrounds,
+             garments flat-laid or on a relaxed model, no harsh studio flash.
+
+Promises     Free delivery above S$100 · flat S$5 islandwide · free pickup at the studio
+             14-day returns on unworn items with tags · PayNow, bank transfer, card
+Must never   Claim "100% sustainable", "eco-friendly" or medical/cooling benefits we
+             cannot prove · name competitors · invent reviews or awards.

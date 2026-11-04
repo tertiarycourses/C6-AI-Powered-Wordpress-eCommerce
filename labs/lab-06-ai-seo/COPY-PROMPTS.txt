@@ -1,0 +1,25 @@
+LAB 6 — Get Found — AI Writes the SEO, You Approve It
+Build a Professional eCommerce Store with Generative AI (C6) · paste each prompt into ChatGPT
+========================================================================
+
+Before the first prompt: attach data/brand-brief.txt (paperclip icon in ChatGPT).
+
+[PROMPT 1] Step 2 — Research buyer keywords
+------------------------------------------------------------------------
+ROLE: You are an SEO strategist for Singapore fashion retailers.
+CONTEXT: Keyword seeds and the brand brief are attached. Pages to rank: Home, Resort Linen Camp Shirt, Linen Wide-Leg Trousers, Classic Cotton T-Shirt.
+TASK: Suggest 12 buyer-intent keywords and assign ONE primary keyword to each page so no two pages compete.
+CONSTRAINTS: Singapore searchers, English. Prefer specific, high-relevance, lower-competition phrases. Mark each as transactional or commercial. Do not include competitor brand names. You cannot see live search volumes — say so and rate volume as an estimate only.
+FORMAT: Table 1: keyword · intent · estimated volume (low/med/high) · why. Table 2: page · primary keyword.
+
+[PROMPT 2] Step 3 — Write the meta titles and descriptions
+------------------------------------------------------------------------
+TASK: For each page in your map, write a meta title and a meta description.
+CONSTRAINTS: Title ≤ 60 characters, primary keyword first, then '| Harbour & Co'. Description ≤ 155 characters, includes the keyword naturally, states one concrete fact (fabric, price or delivery) and ends with a reason to click. Count the characters and show the count. Use British spelling. Prices in S$ including 9% GST. Do not invent facts, reviews, awards or sustainability claims.
+FORMAT: Table: page · meta title · chars · meta description · chars.
+
+[PROMPT 3] Step 6 — Write alt text for every image
+------------------------------------------------------------------------
+TASK: Write alt text for each Harbour & Co product image: what the image shows, colour, product name.
+CONSTRAINTS: ≤ 125 characters, no 'image of', no keyword stuffing.
+FORMAT: Table: SKU · alt text.

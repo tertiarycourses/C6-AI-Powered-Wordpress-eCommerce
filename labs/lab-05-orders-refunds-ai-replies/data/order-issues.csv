@@ -1,0 +1,6 @@
+issue_id,customer,order_items,status_now,issue
+I-01,Marcus Teo,Linen Summer Shirt (S$49.90),Processing,Wants size L instead of M before it ships
+I-02,Aisha Rahman,Classic Denim Jacket (S$79.90),On hold,"Paid by PayNow 2 days ago, order still on hold"
+I-03,Jason Lim,Pleated Midi Skirt (S$46.90),Completed,"Skirt is fine but she changed her mind (day 9 after delivery, tags on)"
+I-04,Priya Nair,Rattan Crossbody Bag (S$45.90),Pending payment,"Placed order 4 days ago, never paid"
+I-05,Daniel Wong,Classic Cotton T-Shirt x3,Processing,Coupon WELCOME10 rejected; cart was S$74.70

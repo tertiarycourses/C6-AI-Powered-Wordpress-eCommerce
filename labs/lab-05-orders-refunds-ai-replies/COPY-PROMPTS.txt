@@ -1,0 +1,20 @@
+LAB 5 — Run a Day of Orders — Refund, Restock, Reply with AI
+Build a Professional eCommerce Store with Generative AI (C6) · paste each prompt into ChatGPT
+========================================================================
+
+Before the first prompt: attach data/brand-brief.txt (paperclip icon in ChatGPT).
+
+[PROMPT 1] Step 4 — Draft the reply with AI
+------------------------------------------------------------------------
+ROLE: You are Harbour & Co's customer-care lead.
+CONTEXT: Tan Wei Ling's email and order are attached. We will refund the Canvas Tote Bag in full to her original payment method within 5–7 working days and she does not need to post it back.
+TASK: Draft a reply to her.
+CONSTRAINTS: Under 120 words. Apologise once, state the refund amount (S$24.90 less her share of the 10% coupon = S$22.41) and timing, thank her for the photo, no discount bribes, sign off as Harbour & Co Customer Care. Use British spelling. Prices in S$ including 9% GST. Do not invent facts, reviews, awards or sustainability claims.
+FORMAT: Plain text, ready to paste.
+
+[PROMPT 2] Step 8 — Triage the rest of the inbox with AI
+------------------------------------------------------------------------
+ROLE: You are a WooCommerce store manager.
+CONTEXT: The attached CSV lists five customer issues.
+TASK: For each, give the order status to set, the WooCommerce action (refund, restock, edit order, coupon, note) and a one-line customer reply.
+FORMAT: A table: issue · status · action · reply.

@@ -1,0 +1,8 @@
+KEYWORD SEEDS — Harbour & Co (Lab 5, Part A)
+=====================================
+Market          Singapore, English-language search
+Pages to rank   Home page · Resort Linen Camp Shirt · Linen Wide-Leg Trousers · Classic Cotton T-Shirt
+Seed terms      linen shirt singapore · linen pants women singapore · breathable office wear
+                · camp collar shirt · cotton t-shirt singapore · resort wear singapore
+Intent wanted   transactional (ready to buy) and commercial (comparing options)
+Competitors     do NOT name or target competitor brand names

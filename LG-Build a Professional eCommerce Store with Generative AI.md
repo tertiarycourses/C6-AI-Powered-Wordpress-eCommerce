@@ -1,36 +1,57 @@
 # Build a Professional eCommerce Store with Generative AI — Learner Guide
 
-**Course Code:** C6  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v2.0 · 4 November 2026**
+**Course Code:** C6  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v2.1 · 5 November 2026**
 
 ## Contents
 
 - [Introduction](#introduction)
 - [Course Learning Outcomes](#course-learning-outcomes)
+- [Course Topics](#course-topics)
 - [Before You Start — Setting Up for the Hands-On Labs](#before-you-start--setting-up-for-the-hands-on-labs)
-- [Topic 01 — AI for WordPress and WooCommerce  (LO1 · the AI toolkit used in every lab)](#topic-01--ai-for-wordpress-and-woocommerce--lo1--the-ai-toolkit-used-in-every-lab)
-- [Topic 02 — Overview of WooCommerce CMS  (LO1)](#topic-02--overview-of-woocommerce-cms--lo1)
-  - [Activity — Discussion — Content Management Policies for Your Store  (15 minutes)](#activity--discussion--content-management-policies-for-your-store--15-minutes)
+- [Topic 01 — Overview of AI for eCommerce Store  (Lab 1 · LO1)](#topic-01--overview-of-ai-for-ecommerce-store--lab-1--lo1)
+  - [1.1 Generative AI Tools for WooCommerce](#11-generative-ai-tools-for-woocommerce)
+  - [1.2 Setup WooCommerce CMS](#12-setup-woocommerce-cms)
+  - [1.3 Configure WooCommerce Themes](#13-configure-woocommerce-themes)
+  - [1.4 WooCommerce Settings and Options](#14-woocommerce-settings-and-options)
   - [Key Concepts for Lab 1](#key-concepts-for-lab-1)
   - [Lab 1 — Launch Harbour & Co — WooCommerce Plus an AI-Designed Homepage](#lab-1--launch-harbour--co--woocommerce-plus-an-ai-designed-homepage)
-- [Topic 03 — Manage Products on WooCommerce Store  (LO2, LO3)](#topic-03--manage-products-on-woocommerce-store--lo2-lo3)
+  - [Activity — Discussion — Content Management Policies for Your Store  (15 minutes)](#activity--discussion--content-management-policies-for-your-store--15-minutes)
+- [Topic 02 — Manage Products with AI  (Lab 2 · LO2, LO3)](#topic-02--manage-products-with-ai--lab-2--lo2-lo3)
+  - [2.1 Adding and Managing Products](#21-adding-and-managing-products)
+  - [2.2 Adding Product Images and Galleries](#22-adding-product-images-and-galleries)
+  - [2.3 Variable Product](#23-variable-product)
+  - [2.4 Product Shipping Classes](#24-product-shipping-classes)
+  - [2.5 Managing Product Categories, Tags and Attributes](#25-managing-product-categories-tags-and-attributes)
+  - [2.6 Digital/Downloadable Product Handling](#26-digitaldownloadable-product-handling)
+  - [2.7 Set up Related Products, Up-Sells and Cross-Sells](#27-set-up-related-products-up-sells-and-cross-sells)
+  - [2.8 Product CSV Importer and Exporter](#28-product-csv-importer-and-exporter)
+  - [2.9 WooCommerce Customizer](#29-woocommerce-customizer)
+  - [2.10 WooCommerce Blocks](#210-woocommerce-blocks)
   - [Key Concepts for Lab 2](#key-concepts-for-lab-2)
-  - [Lab 2 — Shoot and Write a Product with AI](#lab-2--shoot-and-write-a-product-with-ai)
+  - [Lab 2 — Shoot, Write and Import the New-Season Catalogue with AI](#lab-2--shoot-write-and-import-the-new-season-catalogue-with-ai)
+- [Topic 03 — Manage Payments and Shipping with AI  (Lab 3 · LO4)](#topic-03--manage-payments-and-shipping-with-ai--lab-3--lo4)
+  - [3.1 Payment Methods](#31-payment-methods)
+  - [3.2 Shipping Options](#32-shipping-options)
+  - [3.3 Store Policies Drafted with AI](#33-store-policies-drafted-with-ai)
   - [Key Concepts for Lab 3](#key-concepts-for-lab-3)
-  - [Lab 3 — Let AI Build the New-Season Catalogue](#lab-3--let-ai-build-the-new-season-catalogue)
-- [Topic 04 — Manage Payments and Shipping  (LO4)](#topic-04--manage-payments-and-shipping--lo4)
+  - [Lab 3 — AI Drafts the Policies, You Switch On Payments and Shipping](#lab-3--ai-drafts-the-policies-you-switch-on-payments-and-shipping)
   - [Activity — Discussion — Recommend Payment and Shipping for Customer Experience  (15 minutes)](#activity--discussion--recommend-payment-and-shipping-for-customer-experience--15-minutes)
+- [Topic 04 — Manage Sales with AI  (Lab 4 · LO5)](#topic-04--manage-sales-with-ai--lab-4--lo5)
+  - [4.1 Manage Orders and Issues](#41-manage-orders-and-issues)
+  - [4.2 Manage Refund](#42-manage-refund)
+  - [4.3 Manage Coupon and Promotion](#43-manage-coupon-and-promotion)
+  - [4.4 Customer Replies Drafted with AI](#44-customer-replies-drafted-with-ai)
   - [Key Concepts for Lab 4](#key-concepts-for-lab-4)
-  - [Lab 4 — AI Drafts the Policies, You Switch On Payments and Shipping](#lab-4--ai-drafts-the-policies-you-switch-on-payments-and-shipping)
-- [Topic 05 — Manage Sales on WooCommerce Store  (LO5)](#topic-05--manage-sales-on-woocommerce-store--lo5)
-  - [Key Concepts for Lab 5](#key-concepts-for-lab-5)
-  - [Lab 5 — Run a Day of Orders — Refund, Restock, Reply with AI](#lab-5--run-a-day-of-orders--refund-restock-reply-with-ai)
-- [Topic 06 — Manage WooCommerce Performance  (LO6)](#topic-06--manage-woocommerce-performance--lo6)
+  - [Lab 4 — Run a Day of Orders — Refund, Restock, Reply with AI](#lab-4--run-a-day-of-orders--refund-restock-reply-with-ai)
+- [Topic 05 — Manage Store Performance with AI  (Lab 5 · LO6)](#topic-05--manage-store-performance-with-ai--lab-5--lo6)
+  - [5.1 Sales Reports](#51-sales-reports)
+  - [5.2 Dashboard Widgets](#52-dashboard-widgets)
+  - [5.3 Google Analytics Integration](#53-google-analytics-integration)
   - [Activity — Discussion — Metrics to Measure Store Performance  (15 minutes)](#activity--discussion--metrics-to-measure-store-performance--15-minutes)
-- [Topic 07 — SEO in the Age of AI Search  (LO6)](#topic-07--seo-in-the-age-of-ai-search--lo6)
-  - [Key Concepts for Lab 6](#key-concepts-for-lab-6)
-  - [Lab 6 — Get Found — AI Writes the SEO, You Approve It](#lab-6--get-found--ai-writes-the-seo-you-approve-it)
-  - [Key Concepts for Lab 7](#key-concepts-for-lab-7)
-  - [Lab 7 — Launch the Resort Linen Drop — Social, Newsletter, Results](#lab-7--launch-the-resort-linen-drop--social-newsletter-results)
+  - [5.4 Search Performance: SEO in the Age of AI Search](#54-search-performance-seo-in-the-age-of-ai-search)
+  - [5.5 Campaign Performance: AI Marketing That Measures Itself](#55-campaign-performance-ai-marketing-that-measures-itself)
+  - [Key Concepts for Lab 5](#key-concepts-for-lab-5)
+  - [Lab 5 — Get Found, Then Launch the Resort Linen Drop — SEO, Social, Results](#lab-5--get-found-then-launch-the-resort-linen-drop--seo-social-results)
 - [Putting It Together — One Store, End to End](#putting-it-together--one-store-end-to-end)
 - [Rebuild the Store at Home](#rebuild-the-store-at-home)
 - [Glossary](#glossary)
@@ -40,7 +61,7 @@
 
 This Learner Guide accompanies the course Build a Professional eCommerce Store with Generative AI (C6), conducted by Tertiary Infotech Academy Pte Ltd. It is a one-day course, 9:30am – 5:30pm, with 7.5 instructional hours.
 
-You will build one online store from an empty WordPress site, with Generative AI as your co-worker: set the store up (Labs 1–5), get it found in search (Lab 6), and market its launch (Lab 7). AI drafts the homepage, product photos and copy, the catalogue CSV, the policies, the SEO and the campaign; you check every fact and approve anything public.
+You will build one online store from an empty WordPress site, with Generative AI as your co-worker: set the store up (Labs 1–4), then get it found in search and market its launch (Lab 5) — one lab per topic. AI drafts the homepage, product photos and copy, the catalogue CSV, the policies, the SEO and the campaign; you check every fact and approve anything public.
 
 This guide holds the full step-by-step instructions and every prompt. Each lab also has its own folder (labs/lab-NN-…/) with an instructions PDF, COPY-PROMPTS.txt, data, product assets and templates. Keep this guide — it lets you repeat every lab after the class.
 
@@ -49,12 +70,25 @@ This guide holds the full step-by-step instructions and every prompt. Each lab a
 
 On completion of this course, you will be able to:
 
-- LO1: Setup and monitor WooCommerce CMS to ensure adherence to guidelines and policies.
-- LO2: Edit and curate product website on WooCommerce CMS.
+- LO1: Set up and monitor WooCommerce CMS to ensure adherence to guidelines and policies.
+- LO2: Edit and curate a product website on WooCommerce CMS.
 - LO3: Maintain product web content on WooCommerce CMS.
 - LO4: Recommend payment and shipping methods on WooCommerce CMS to improve customer experience.
-- LO5: Manage issues related to WooCommerce CMS such as sales, out-of-stock, promotion etc.
+- LO5: Manage issues related to WooCommerce CMS such as sales, out-of-stock and promotions.
 - LO6: Manage WooCommerce CMS performance.
+
+
+## Course Topics
+
+The course has five topics, each with its own hands-on lab. Each topic is split into numbered sub-topics; the labs run straight after the sub-topic they practise.
+
+| Topic | Sub-topics | Labs |
+|---|---|---|
+| Topic 1 — Overview of AI for eCommerce Store (Lab 1 · LO1) | 1.1 Generative AI Tools for WooCommerce; 1.2 Setup WooCommerce CMS; 1.3 Configure WooCommerce Themes; 1.4 WooCommerce Settings and Options | Lab 1 |
+| Topic 2 — Manage Products with AI (Lab 2 · LO2, LO3) | 2.1 Adding and Managing Products; 2.2 Adding Product Images and Galleries; 2.3 Variable Product; 2.4 Product Shipping Classes; 2.5 Managing Product Categories, Tags and Attributes; 2.6 Digital/Downloadable Product Handling; 2.7 Set up Related Products, Up-Sells and Cross-Sells; 2.8 Product CSV Importer and Exporter; 2.9 WooCommerce Customizer; 2.10 WooCommerce Blocks | Lab 2 |
+| Topic 3 — Manage Payments and Shipping with AI (Lab 3 · LO4) | 3.1 Payment Methods; 3.2 Shipping Options; 3.3 Store Policies Drafted with AI | Lab 3 |
+| Topic 4 — Manage Sales with AI (Lab 4 · LO5) | 4.1 Manage Orders and Issues; 4.2 Manage Refund; 4.3 Manage Coupon and Promotion; 4.4 Customer Replies Drafted with AI | Lab 4 |
+| Topic 5 — Manage Store Performance with AI (Lab 5 · LO6) | 5.1 Sales Reports; 5.2 Dashboard Widgets; 5.3 Google Analytics Integration; 5.4 Search Performance: SEO in the Age of AI Search; 5.5 Campaign Performance: AI Marketing That Measures Itself | Lab 5 |
 
 
 ## Before You Start — Setting Up for the Hands-On Labs
@@ -85,18 +119,16 @@ The trainer assigns each learner one demo WordPress site. Open its /wp-admin pag
 | WooCommerce | 1 | Plugins > Add Plugin > 'WooCommerce' by Automattic |
 | Storefront theme | 1 | Appearance > Themes > Add New Theme |
 | Harbour & Co Toolkit | 1 | Plugins > Add Plugin > Upload Plugin > labs/lab-01-…/plugin/harbour-co-toolkit.zip |
-| All in One SEO | 6 | Plugins > Add Plugin > 'All in One SEO' |
-| MailPoet | 7 | Plugins > Add Plugin > 'MailPoet' |
+| All in One SEO | 5 | Plugins > Add Plugin > 'All in One SEO' |
+| MailPoet | 5 | Plugins > Add Plugin > 'MailPoet' |
 
 **The store you will build — Harbour & Co**
 
 Harbour & Co is a Singapore fashion label selling breathable city wear — linen shirts, polos, tees, skirts, trousers and accessories — from a studio shop at 71 Ayer Rajah Crescent. The founder, Rachel Lim, wants to sell online before the Resort Linen season launches. You are her eCommerce lead for the day: set the store up with Generative AI, get it found in search, then market the launch.
 
-- Phase 1 · Set up the store with GenAI (Labs 1–5) — WooCommerce, an AI-designed homepage, AI product photos and copy, an AI-built catalogue, AI-drafted policies, and the orders that follow.
+- Phase 1 · Set up the store with GenAI (Labs 1–4) — WooCommerce, an AI-designed homepage, AI product photos and copy, an AI-built catalogue, AI-drafted policies, and the orders that follow.
 
-- Phase 2 · Get found — SEO with GenAI (Lab 6) — Keyword research, meta titles, meta descriptions and alt text, written by AI and applied in All in One SEO.
-
-- Phase 3 · Get customers — digital marketing with GenAI (Lab 7) — Social posts, a MailPoet newsletter and a tracked campaign coupon — then the numbers that prove it worked.
+- Phase 2 · Get found and get customers with GenAI (Lab 5) — Keyword research and meta text applied in All in One SEO, then social posts, a MailPoet newsletter and a tracked campaign coupon — and the numbers that prove it worked.
 
 **The brand brief — attach it to every ChatGPT chat**
 
@@ -145,50 +177,51 @@ Must never   Claim "100% sustainable", "eco-friendly" or medical/cooling benefit
 > **Note:** Every AI answer is a draft. Policies, prices and claims on a real store are your responsibility — the owner signs them off.
 
 
-## Topic 01 — AI for WordPress and WooCommerce  (LO1 · the AI toolkit used in every lab)
+## Topic 01 — Overview of AI for eCommerce Store  (Lab 1 · LO1)
 
-AI tools · Effective prompts · WordPress AI connectors · AI features in the editor
-
-**Key concepts**
-
-- Choosing an AI tool — ChatGPT, Gemini and Claude compared on strengths, ease of use and price.
-- Model tiers — From fast and budget to heavy-duty models, for each provider.
-- Effective prompts — Role, context, task, constraints, format and examples.
-- Prompting in practice — Generate a replacement About Us page in line with E-E-A-T.
-- WordPress AI Connectors — Connect Google, Anthropic or OpenAI from Settings > Connectors (WordPress 7.0+).
-- AI in the editor — Enable AI features, and know the WooCommerce Classic Editor limits.
+Install WooCommerce, price in S$ with 9% GST, and let AI design the homepage.
 
 
-## Topic 02 — Overview of WooCommerce CMS  (LO1)
+### 1.1 Generative AI Tools for WooCommerce
 
-What WooCommerce is · Installing it · Setup wizard · Themes · Widgets & shortcodes · Settings, currency & tax
+Added to this course: The AI co-worker for every lab.
 
-**Key concepts**
-
-- What WooCommerce is — An open-source, fully customisable eCommerce platform built on WordPress, powering a large share of the world's online stores.
-- Six steps to a store — Choose hosting, install WordPress, pick a theme, activate WooCommerce, run the setup wizard, then extend with plugins.
-- System requirements — PHP 7.2+, MySQL 5.6+ or MariaDB 10.0+, a 128 MB WordPress memory limit, and HTTPS support.
-- Taxonomies and post types — WooCommerce adds its own post types and taxonomies to WordPress to group and structure products.
-- Themes and widgets — The theme sets the storefront's look; widgets surface products, filters and categories in widgetised areas.
-- Settings, currency and tax — General, Products, Tax, Shipping, Payments and Privacy settings define how the store behaves and prices goods.
+- Choosing an AI tool — ChatGPT for content and images, Gemini for SEO and long files, Claude for long, careful writing.
+- Model tiers — Each provider runs fast, budget models and heavy-duty ones; match the tier to the job.
+- Effective prompts — Role, context, task, constraints and output format, with the brand brief attached.
+- WordPress AI Connectors — Settings > Connectors (WordPress 7.0+) stores one Anthropic, Google or OpenAI key for every AI plugin.
+- AI in the editor — Settings > AI turns on image generation, alt text and title suggestions; WooCommerce products still open in the classic editor.
 
 
-### Activity — Discussion — Content Management Policies for Your Store  (15 minutes)
+### 1.2 Setup WooCommerce CMS
 
-In pairs, consider a store you would run. Decide what content management policies, guidelines and user permissions it needs, and how you would monitor that people actually follow them.
+With AI: Run the setup wizard with Harbour & Co's answers.
 
-**Discussion prompts**
+- What WooCommerce is — An open-source eCommerce plugin by Automattic that turns WordPress into a store.
+- Six steps to a store — Hosting, WordPress, a theme, the WooCommerce plugin, the setup wizard, then extensions.
+- System requirements — PHP 7.2+, MySQL 5.6+ or MariaDB 10.0+, a 128 MB WordPress memory limit and HTTPS.
+- Install and the wizard — Plugins > Add Plugin > WooCommerce > Activate; the wizard asks store name, industry and location.
+- Taxonomies and post types — WooCommerce adds products, orders and product categories, tags and attributes to WordPress.
 
-- Who should be able to publish a product, and who should only be able to draft one?
-- Which WordPress/WooCommerce roles map to those responsibilities?
-- What product-content guidelines would you set — image size, description length, mandatory fields?
-- Who checks AI-written copy before it goes live, and against which brand rules?
 
-**What to produce**
+### 1.3 Configure WooCommerce Themes
 
-A short policy statement: the roles, the content guidelines, and how adherence is monitored.
+With AI: An AI-written homepage in a Custom HTML block.
 
-> **Note:** Write your answer down — you will apply the same reasoning to your own store in the labs.
+- Themes — Storefront is WooCommerce's own theme; third-party themes trade flexibility for support and speed.
+- Widgets and shortcodes — Widgets surface products and filters in sidebars and footers; shortcodes such as [products] place store content in any page.
+- AI output to a page — Paste AI HTML into a Custom HTML block, insert a block pattern, or paste Markdown that turns into blocks.
+- The toolkit plugin — The Harbour & Co Toolkit adds brand styles and five block patterns: hero, collections, new arrivals, trust bar, policy links.
+
+
+### 1.4 WooCommerce Settings and Options
+
+With AI: Set S$, 9% GST and the roles that keep AI drafts in check.
+
+- WooCommerce > Settings — General, Products, Tax, Shipping, Payments, Accounts & Privacy, Emails and Advanced tabs.
+- Currency and location — Singapore dollar; Default customer location = Shop country/region, so visitors see GST-inclusive prices.
+- Tax — Prices entered inclusive of tax; one standard rate: SG, 9%, GST.
+- Roles as policy — An Administrator changes settings; a Shop manager runs products, orders and coupons. That split is your content-management policy.
 
 
 ### Key Concepts for Lab 1
@@ -251,7 +284,7 @@ Rachel Lim has a WordPress site and a studio shop, but no online store. Today yo
 Open your assigned site's /wp-admin page and sign in. Your username is trainingN@tertiaryinfotech.com, where N is your site number. The demo hosting already meets the WooCommerce requirements (PHP 7.2+, MySQL 5.6+ or MariaDB 10.0+, 128 MB memory, HTTPS).
 
 ```text
-https://wp1.tertiarytraining.com/wp-admin   →   training1@tertiaryinfotech.com   ·   password from your trainer
+https://wp1.tertiarytraining.com/wp-admin   →   training1@tertiaryinfotech.com   ·   password given by your trainer
 (use YOUR site number: wp2 → training2@…, wp3 → training3@…)
 ```
 
@@ -402,18 +435,114 @@ Your site's front page shows the Harbour & Co homepage, prices display in S$, an
 Ask ChatGPT for an About Us page that meets E-E-A-T (founder byline, first-hand story, real address) and publish it at /about-us/.
 
 
-## Topic 03 — Manage Products on WooCommerce Store  (LO2, LO3)
+### Activity — Discussion — Content Management Policies for Your Store  (15 minutes)
 
-Product types · AI product photos & copy · Variations · Categories, tags & attributes · Up-sells · CSV import
+In pairs, consider a store you would run. Decide what content management policies, guidelines and user permissions it needs, and how you would monitor that people actually follow them.
 
-**Key concepts**
+**Discussion prompts**
 
-- Product types — Simple, Grouped, Virtual, Downloadable, External/Affiliate and Variable each model a different kind of offer.
-- The Product Data panel — General, Inventory, Shipping, Linked Products and Attributes — where the substance of a product is defined.
-- Images and galleries — A featured image plus a gallery, with catalogue visibility controlling where the product appears.
-- Categories, tags, attributes — Categories are hierarchical, tags are flat, and attributes drive filtering and product variations.
-- Up-sells and cross-sells — Up-sells appear on the product page; cross-sells appear in the cart; related products are automatic.
-- CSV import and export — Create or update hundreds of products in one pass, including variations, from a single CSV file.
+- Who should be able to publish a product, and who should only be able to draft one?
+- Which WordPress/WooCommerce roles map to those responsibilities?
+- What product-content guidelines would you set — image size, description length, mandatory fields?
+- Who checks AI-written copy before it goes live, and against which brand rules?
+
+**What to produce**
+
+A short policy statement: the roles, the content guidelines, and how adherence is monitored.
+
+> **Note:** Write your answer down — you will apply the same reasoning to your own store in the labs.
+
+
+## Topic 02 — Manage Products with AI  (Lab 2 · LO2, LO3)
+
+Shoot, write and import the new-season catalogue. AI drafts it; you check every fact.
+
+
+### 2.1 Adding and Managing Products
+
+With AI: Spec sheet in, product page out.
+
+- Product types — Simple, grouped, external/affiliate and variable, plus the virtual and downloadable options.
+- The Product Data panel — General, Inventory, Shipping, Linked Products and Attributes: where a product's facts live.
+- Short and long descriptions — The short description sits beside the price; the long one carries fabric, fit, size and care.
+- Catalogue visibility — Shop and search results, shop only, search only, or hidden.
+
+
+### 2.2 Adding Product Images and Galleries
+
+With AI: AI flat-lay photos and fact-checked AI copy.
+
+- Featured image and gallery — One main image plus a gallery; square images keep the shop grid even.
+- Prompt the photo — Square 1:1, flat lay from above, sand linen background, soft daylight, no text, logos or people.
+- Fact-check the copy — Keep only what the spec sheet proves; delete 'cooling', 'eco-friendly' and other unprovable claims.
+- Alt text — Colour, product and setting in plain words, for screen readers and image search.
+
+
+### 2.3 Variable Product
+
+With AI: One polo, every size and colour.
+
+- Attributes used for variations — Add Size and Colour, tick 'Used for variations', then generate the combinations.
+- Each variation is its own item — Its own SKU, price, stock and image; a variation with no price cannot be bought.
+
+
+### 2.4 Product Shipping Classes
+
+With AI: Group products that cost the same to ship.
+
+- Where classes live — WooCommerce > Settings > Shipping > Classes; assign one in Product data > Shipping.
+- How they price — A flat rate can add a cost per class, e.g. bulky or fragile items. Harbour & Co ships everything at one flat rate, so it needs none.
+
+
+### 2.5 Managing Product Categories, Tags and Attributes
+
+With AI: A category tree AI can fill from a CSV.
+
+- Categories — Hierarchical (Apparel > Shirts); every product needs one, or it lands in 'Uncategorized'.
+- Tags — Flat labels that link products across categories, e.g. resort-linen.
+- Global attributes — Products > Attributes: shared Size and Colour terms that power filters and variations.
+
+
+### 2.6 Digital/Downloadable Product Handling
+
+With AI: Sell a size guide or lookbook as a file.
+
+- Virtual and downloadable — Virtual needs no shipping; downloadable delivers a file with an optional limit and expiry.
+- Settings > Products > Downloadable products — The file download method and the access rules for logged-in customers.
+
+
+### 2.7 Set up Related Products, Up-Sells and Cross-Sells
+
+With AI: Raise the order value with linked products.
+
+- Up-sells — Shown on the product page as a better or pricier choice: the tee up-sells the polo.
+- Cross-sells — Shown in the cart as an add-on: the cap and the tote.
+- Related products — Picked automatically from shared categories and tags.
+
+
+### 2.8 Product CSV Importer and Exporter
+
+With AI: AI turns supplier notes into an import-ready CSV.
+
+- Import and export — Products > Import / Export creates or updates hundreds of products, variations included.
+- Exact headers — Type, SKU, Name, Regular price, Categories, Stock: the AI must use WooCommerce's column names.
+- First import — Leave 'Update existing products' unticked; that option skips SKUs not yet in the store.
+
+
+### 2.9 WooCommerce Customizer
+
+With AI: Tune the shop page without code.
+
+- Appearance > Customize > WooCommerce — Store notice, product catalogue, product images and checkout options.
+- Product catalogue — What the shop page shows first and how products are sorted, per row and per page.
+
+
+### 2.10 WooCommerce Blocks
+
+With AI: Put products in any page.
+
+- Product blocks — Show products by category, tag, attribute, rating or newest in any post or page.
+- Cart and Checkout blocks — The block-based cart and checkout that new stores use by default.
 
 
 ### Key Concepts for Lab 2
@@ -424,32 +553,35 @@ Product types · AI product photos & copy · Variations · Categories, tags & at
 - Alt text describes the image for screen readers and image search.
 
 
-### Lab 2 — Shoot and Write a Product with AI
+### Lab 2 — Shoot, Write and Import the New-Season Catalogue with AI
 
-Phase 1 · 10 minutes · LO2 · folder labs/lab-02-ai-product-photos-and-copy/
+Phase 1 · 25 minutes · LO2, LO3 · folder labs/lab-02-ai-product-catalogue/
 
-ChatGPT makes the product photo and writes the copy. You publish the Classic Cotton T-Shirt.
+ChatGPT shoots the T-shirt photo, writes its copy and turns Rachel's notes into an import-ready CSV. You check every fact.
 
-Objective: Edit and curate product web content on the WooCommerce CMS.
+Objective: Edit and curate product web content and keep the catalogue consistent through bulk updates on the WooCommerce CMS.
 
 **The business scenario**
 
-Harbour & Co's best-seller, the Classic Cotton T-Shirt, has no photo and no copy. A photo shoot costs S$800 and takes a week. You have nine minutes and ChatGPT. Generate an on-brand product photo, write the description from the spec sheet, and publish the product.
+Harbour & Co's best-seller, the Classic Cotton T-Shirt, has no photo and no copy, and the Resort Linen pieces arrive next week as scattered WhatsApp notes. A photo shoot costs S$800 and takes a week. In Part A ChatGPT shoots and writes the T-shirt and you publish it. In Part B ChatGPT turns Rachel's notes into an import-ready CSV; you import it with the core range, build the Premium Polo's variations and link up-sells.
 
 **You will deliver**
 
-- An AI-generated product photo that follows the brand photography rules
-- A short description (under 30 words) and a long description written by AI, checked by you
-- The Classic Cotton T-Shirt published: S$29.90, sale S$24.90, SKU, stock 50, category, tags, image, alt text
+- The Classic Cotton T-Shirt with an AI photo and checked AI copy, priced and stocked
+- An AI-generated new-season CSV, checked against the supplier notes
+- Nine products imported by CSV into the category hierarchy
+- The Premium Polo: 3 sizes × 2 colours = 6 priced variations
+- Up-sells and cross-sells on the T-shirt
 
 **Who does what**
 
-- AI does — ChatGPT generates the product photo and drafts the short and long descriptions.
-- You decide — You reject any photo or sentence that breaks the brand brief, and you enter the facts (price, SKU, stock) yourself.
+- AI does — ChatGPT generates the product photo, drafts the descriptions and converts messy notes into a CSV with WooCommerce's exact column headers.
+- You decide — You reject any photo or sentence that breaks the brand brief, and check every SKU, price and stock figure before it goes live — the importer will not.
 
 **Plugins and themes**
 
 - WooCommerce (from Lab 1) — Already active
+- WooCommerce product CSV importer — Built in — Products > All Products > Import
 
 **Lab files**
 
@@ -461,8 +593,16 @@ Harbour & Co's best-seller, the Classic Cotton T-Shirt, has no photo and no copy
 | assets/images/TSHIRT-CLASSIC-001.jpg | Starter image — use it if image generation is slow |
 | assets/images/CAP-COTTON-001.jpg | Starter image for the stretch challenge |
 | assets/descriptions/TSHIRT-CLASSIC-001.txt | Reference copy — compare after you write yours |
+| data/supplier-notes.txt | Rachel's WhatsApp notes for the four new-season products |
+| data/harbour-co-products.csv | Core range — five products, ready to import |
+| data/harbour-co-new-season-reference.csv | Reference answer — import this if your AI CSV fails |
+| data/polo-variations.csv | The six polo variations: size, colour, SKU, price |
+| assets/images/ | Starter images for every catalogue product |
+| assets/descriptions/ | Reference copy for every catalogue product |
 
 **Step by step**
+
+**Part A — Shoot and Write a Product with AI**
 
 1. Generate the product photo — ChatGPT (chatgpt.com) — a new chat
 
@@ -526,7 +666,7 @@ Category: Apparel > Shirts   ·   Tags: cotton, unisex, casual
 
 7. Product image and alt text — Product image > Set product image
 
-Upload your AI photo. In the Media panel fill Alternative Text with a plain description a screen reader can read — this also feeds image search in Lab 6.
+Upload your AI photo. In the Media panel fill Alternative Text with a plain description a screen reader can read — this also feeds image search in Lab 5.
 
 ```text
 Alt text: White Harbour & Co classic cotton t-shirt laid flat on a sand background
@@ -538,95 +678,9 @@ Publish, then open the product in a private window. Check photo, price, short de
 
 ✓ Expected: S$29.90 struck through, S$24.90 sale price, your photo and copy, Apparel > Shirts in the breadcrumb.
 
-**Prompt Playbook — step → prompt → step → prompt**
+**Part B — Let AI Build the New-Season Catalogue**
 
-- Step 1 · AI PROMPT · Generate the product photo
-- Step 2 · AI PROMPT · Write the descriptions from the facts
-- Step 3 · YOU · Fact-check before you paste
-- Step 4 · YOU · Create the product
-- Step 5 · YOU · Price, SKU and stock
-- Step 6 · YOU · Category and tags
-- Step 7 · YOU · Product image and alt text
-- Step 8 · YOU · Publish and view it as a customer
-
-![A finished product page after Lab 2.](assets/screenshots/harbour-product.png)
-
-*A finished product page after Lab 2.*
-
-**Checkpoint**
-
-The product page shows your AI photo, the short description beside it, S$24.90 sale price and the Apparel > Shirts category.
-
-- ☐ The product photo is AI-generated (or the starter image) and follows the brand photo rules
-- ☐ Short description ≤ 30 words; long description uses only spec facts
-- ☐ Regular S$29.90, sale S$24.90, SKU TSHIRT-CLASSIC-001, stock 50
-- ☐ Category Apparel > Shirts and tags cotton, unisex, casual
-- ☐ Alt text filled on the product image
-
-**Troubleshooting**
-
-| Symptom | Fix |
-|---|---|
-| ChatGPT refuses or is slow to make images | Use the starter image in assets/images/ and continue — the copy step does not depend on it. |
-| The image has text or a logo on it | Reply: 'Regenerate with no text, no logos, nothing printed on the shirt.' |
-| The sale price does not show | Check the sale price is lower than the regular price and that no sale schedule dates are set in the future. |
-
-**Stretch challenge**
-
-Repeat for the Cotton Cap (CAP-COTTON-001, S$19.90, Accessories) and ask ChatGPT for three photo variations — pick the one that best matches the brief.
-
-
-### Key Concepts for Lab 3
-
-- Variable products carry attributes used for variations; every variation needs its own price.
-- Categories are hierarchical (Apparel > Shirts); tags are flat; up-sells show on the product page, cross-sells in the cart.
-- The CSV importer needs exact headers; for a first import leave 'Update existing products' unticked — it skips new SKUs.
-- AI can turn messy notes into a CSV, but you check every SKU, price and stock figure before importing.
-
-
-### Lab 3 — Let AI Build the New-Season Catalogue
-
-Phase 1 · 10 minutes · LO3 · folder labs/lab-03-ai-builds-the-catalogue/
-
-Rachel's WhatsApp notes become a WooCommerce CSV. Import it, add the polo's six variations, link the up-sells.
-
-Objective: Ensure smooth maintenance and consistent bulk updates of the product catalogue.
-
-**The business scenario**
-
-The Resort Linen pieces arrive next week. Rachel's product details are scattered WhatsApp messages. Typing four products by hand invites typos in SKUs and prices. ChatGPT turns her notes into an import-ready CSV; you import it with the core range, build the Premium Polo's size and colour variations, and link up-sells so customers see the next-best item.
-
-**You will deliver**
-
-- harbour-co-new-season.csv generated by AI from the supplier notes and checked by you
-- Nine products imported by CSV into Apparel > Shirts, Apparel > Bottoms, Apparel > Outerwear and Accessories
-- The Premium Polo Shirt as a variable product: 3 sizes × 2 colours = 6 priced, stocked variations
-- Up-sell and cross-sell links on the Classic Cotton T-Shirt
-
-**Who does what**
-
-- AI does — ChatGPT converts messy notes into a CSV with WooCommerce's exact column headers.
-- You decide — You check SKUs, prices and stock against the notes before importing — the importer will not.
-
-**Plugins and themes**
-
-- WooCommerce product CSV importer — Built in — Products > All Products > Import
-
-**Lab files**
-
-| File | What it is |
-|---|---|
-| data/brand-brief.txt | Brand brief |
-| data/supplier-notes.txt | Rachel's WhatsApp notes for the four new-season products |
-| data/harbour-co-products.csv | Core range — five products, ready to import |
-| data/harbour-co-new-season-reference.csv | Reference answer — import this if your AI CSV fails |
-| data/polo-variations.csv | The six polo variations: size, colour, SKU, price |
-| assets/images/ | Starter images for every catalogue product |
-| assets/descriptions/ | Reference copy for every catalogue product |
-
-**Step by step**
-
-1. Turn the supplier notes into a CSV — ChatGPT (chatgpt.com) — a new chat
+9. Turn the supplier notes into a CSV — ChatGPT (chatgpt.com) — a new chat
 
 Attach data/supplier-notes.txt and data/brand-brief.txt, then paste the prompt.
 
@@ -641,7 +695,7 @@ FORMAT: One CSV code block only, then a table listing each SKU with its price an
 
 ✓ Expected: Four rows. Save the code block as harbour-co-new-season.csv (UTF-8).
 
-2. Check the CSV against the notes — You (a spreadsheet or text editor)
+10. Check the CSV against the notes — You (a spreadsheet or text editor)
 
 Compare each SKU, price, sale price, stock and category with the notes. Fix mistakes in the file, not in ChatGPT.
 
@@ -652,19 +706,19 @@ SKIRT-MIDI-001 54.90 / sale 46.90 · 25
 BAG-RATTAN-001 45.90 · 20 · Accessories
 ```
 
-3. Import the core range — Products > All Products > Import
+11. Import the core range — Products > All Products > Import
 
 Choose data/harbour-co-products.csv, click Continue, review the column mapping, then Run the importer.
 
 ✓ Expected: 'Import complete! 5 products imported.'
 
-4. Import your AI-generated CSV — Products > All Products > Import
+12. Import your AI-generated CSV — Products > All Products > Import
 
 Repeat with harbour-co-new-season.csv. If the importer rejects it, import data/harbour-co-new-season-reference.csv instead and compare the two files to see why.
 
 ✓ Expected: 4 products imported; Apparel > Bottoms is created automatically.
 
-5. Create the variable polo — Products > Add new product
+13. Create the variable polo — Products > Add new product
 
 Title Premium Polo Shirt. In Product data change Simple product to Variable product.
 
@@ -672,7 +726,7 @@ Title Premium Polo Shirt. In Product data change Simple product to Variable prod
 Title: Premium Polo Shirt   ·   Product data: Variable product   ·   Category: Apparel > Shirts
 ```
 
-6. Add Size and Colour attributes — Product data > Attributes
+14. Add Size and Colour attributes — Product data > Attributes
 
 Add a custom attribute Size, then Colour. Tick 'Used for variations' on both and Save attributes.
 
@@ -681,7 +735,7 @@ Size:  S | M | L
 Colour:  Black | White
 ```
 
-7. Generate and price the six variations — Product data > Variations
+15. Generate and price the six variations — Product data > Variations
 
 Click Generate variations. Expand each one and enter its SKU, price and stock (see data/polo-variations.csv). Set the default form values to M / Black. Publish.
 
@@ -692,7 +746,7 @@ POLO-S-WHT 39.90 · POLO-M-WHT 39.90 · POLO-L-WHT 41.90   ·   Stock 25 each
 
 ✓ Expected: The product page shows S$39.90 – S$41.90 and Size / Colour dropdowns.
 
-8. Link up-sells and cross-sells — Classic Cotton T-Shirt > Product data > Linked Products
+16. Link up-sells and cross-sells — Classic Cotton T-Shirt > Product data > Linked Products
 
 Up-sell the more premium polo on the product page; cross-sell the cap and tote in the cart. Update.
 
@@ -700,7 +754,7 @@ Up-sell the more premium polo on the product page; cross-sell the cap and tote i
 Upsells: Premium Polo Shirt   ·   Cross-sells: Cotton Cap, Canvas Tote Bag
 ```
 
-9. Ask AI for a catalogue audit — Same ChatGPT chat
+17. Ask AI for a catalogue audit — Same ChatGPT chat
 
 Export the catalogue (Products > All Products > Export > Generate CSV), attach the file and paste the prompt.
 
@@ -715,24 +769,37 @@ FORMAT: A table: SKU · problem · fix. Then the three fixes that matter most fo
 
 **Prompt Playbook — step → prompt → step → prompt**
 
-- Step 1 · AI PROMPT · Turn the supplier notes into a CSV
-- Step 2 · YOU · Check the CSV against the notes
-- Step 3 · YOU · Import the core range
-- Step 4 · YOU · Import your AI-generated CSV
-- Step 5 · YOU · Create the variable polo
-- Step 6 · YOU · Add Size and Colour attributes
-- Step 7 · YOU · Generate and price the six variations
-- Step 8 · YOU · Link up-sells and cross-sells
-- Step 9 · AI PROMPT · Ask AI for a catalogue audit
+- Step 1 · AI PROMPT · Generate the product photo
+- Step 2 · AI PROMPT · Write the descriptions from the facts
+- Step 3 · YOU · Fact-check before you paste
+- Step 4 · YOU · Create the product
+- Step 5 · YOU · Price, SKU and stock
+- Step 6 · YOU · Category and tags
+- Step 7 · YOU · Product image and alt text
+- Step 8 · YOU · Publish and view it as a customer
+- Step 9 · AI PROMPT · Turn the supplier notes into a CSV
+- Step 10 · YOU · Check the CSV against the notes
+- Step 11 · YOU · Import the core range
+- Step 12 · YOU · Import your AI-generated CSV
+- Step 13 · YOU · Create the variable polo
+- Step 14 · YOU · Add Size and Colour attributes
+- Step 15 · YOU · Generate and price the six variations
+- Step 16 · YOU · Link up-sells and cross-sells
+- Step 17 · AI PROMPT · Ask AI for a catalogue audit
 
-![Products > All Products after Lab 3: imported products, the polo's price range, the category hierarchy.](assets/screenshots/harbour-products-admin.png)
+![Products > All Products after Lab 2: the AI-photographed T-shirt, imported products, the polo's price range, the category hierarchy.](assets/screenshots/harbour-products-admin.png)
 
-*Products > All Products after Lab 3: imported products, the polo's price range, the category hierarchy.*
+*Products > All Products after Lab 2: the AI-photographed T-shirt, imported products, the polo's price range, the category hierarchy.*
 
 **Checkpoint**
 
-All Products lists 11 products, the polo shows S$39.90 – S$41.90, and Apparel has Shirts, Bottoms and Outerwear under it.
+All Products lists 11 products with your AI-photographed Classic Cotton T-Shirt among them, the polo shows S$39.90 – S$41.90, and Apparel has Shirts, Bottoms and Outerwear under it.
 
+- ☐ The product photo is AI-generated (or the starter image) and follows the brand photo rules
+- ☐ Short description ≤ 30 words; long description uses only spec facts
+- ☐ Regular S$29.90, sale S$24.90, SKU TSHIRT-CLASSIC-001, stock 50
+- ☐ Category Apparel > Shirts and tags cotton, unisex, casual
+- ☐ Alt text filled on the product image
 - ☐ Nine CSV-imported products plus the T-shirt and polo appear in All Products
 - ☐ Categories: Apparel > Shirts, Apparel > Bottoms, Apparel > Outerwear and Accessories
 - ☐ The polo has six variations, each with SKU, price and stock
@@ -742,60 +809,64 @@ All Products lists 11 products, the polo shows S$39.90 – S$41.90, and Apparel 
 
 | Symptom | Fix |
 |---|---|
+| ChatGPT refuses or is slow to make images | Use the starter image in assets/images/ and continue — the copy step does not depend on it. |
+| The image has text or a logo on it | Reply: 'Regenerate with no text, no logos, nothing printed on the shirt.' |
+| The sale price does not show | Check the sale price is lower than the regular price and that no sale schedule dates are set in the future. |
 | Importer: 'Invalid file type' | Save as .csv (UTF-8). In Excel use 'CSV UTF-8 (Comma delimited)'. |
 | Columns land in the wrong fields | On the mapping screen choose the right WooCommerce field for each column, or fix the header spelling. |
 | 'Import complete' but 0 products imported | You ticked 'Update existing products'. That option only updates SKUs already in the store and skips new ones — untick it for a first import. |
 | A variation is missing from the dropdown | Every variation needs its own price. Expand it and enter the Regular price. |
-| Cotton Cap is not in the cross-sell search | Create it first (Lab 2 challenge) or pick another accessory. |
+| Cotton Cap is not in the cross-sell search | Create it first (the stretch challenge) or pick another accessory. |
 
 **Stretch challenge**
 
-Add the starter images to the nine imported products and ask ChatGPT to write a 2-line category description for Apparel > Bottoms.
+Repeat for the Cotton Cap (CAP-COTTON-001, S$19.90, Accessories) and ask ChatGPT for three photo variations — pick the one that best matches the brief.
 
 
-## Topic 04 — Manage Payments and Shipping  (LO4)
+## Topic 03 — Manage Payments and Shipping with AI  (Lab 3 · LO4)
 
-Store policies · Online & offline payment methods · Gateways · Shipping zones · Flat rate, free shipping & local pickup
-
-**Key concepts**
-
-- Payment methods — Online gateways such as Stripe and PayPal, plus offline options like bank transfer, cheque and cash on delivery.
-- Choosing a gateway — Location, fees, supported currencies and whether the customer stays on your site all shape the decision.
-- Shipping zones — A zone is a geographic region; each zone carries its own shipping methods and rates.
-- Flat rate shipping — A standard cost per order, per item or per shipping class, defined inside a shipping zone.
-- Free shipping — A powerful incentive — commonly gated behind a minimum order amount or a valid coupon.
-- Store policies — Privacy (PDPA), returns, shipping and payment pages tell customers what to expect before they pay.
+Give customers the checkout they expect, and the policies that back it up.
 
 
-### Activity — Discussion — Recommend Payment and Shipping for Customer Experience  (15 minutes)
+### 3.1 Payment Methods
 
-Working from the store you have built, recommend the payment and shipping mix that would give your customers the best experience — and justify the trade-offs.
+With AI: Recommend the methods your customers expect.
 
-**Discussion prompts**
-
-- Which payment methods do your customers expect, and what does each one cost you?
-- Does the customer stay on your site, or get redirected? Why does that matter for conversion?
-- Would free shipping above a threshold raise your average order value or erode your margin?
-- Which shipping zones do you actually serve, and what happens to orders outside them?
-
-**What to produce**
-
-A recommended payment and shipping configuration with the customer-experience reason for each choice.
-
-> **Note:** Write your answer down — you will apply the same reasoning to your own store in the labs.
+- Online gateways — Stripe, PayPal and WooPayments take cards and wallets; check fees, currencies and payouts.
+- Choosing a gateway — Location, fees, supported currencies and whether the customer stays on your site.
+- Offline methods — Payments > Take offline payments: bank transfer (PayNow), cheque, cash on delivery. The order waits On hold until paid.
 
 
-### Key Concepts for Lab 4
+### 3.2 Shipping Options
 
-- Customers read four pages before paying: Privacy (PDPA), Returns & Refunds, Shipping & Delivery, Payment Methods.
-- Offline payments (PayNow / bank transfer, pay at pickup) hold the order until payment is confirmed.
-- A shipping zone holds methods: flat rate, free shipping above a minimum, local pickup.
-- Shipping costs are entered excluding tax — enter 4.59 (taxable) to charge S$5.00.
+With AI: Flat rate, free above S$100, studio pickup.
+
+- Shipping zones — A zone is a region with its own methods; Singapore is Harbour & Co's only zone.
+- Flat rate — Costs are entered excluding tax: 4.59, taxable, charges S$5.00.
+- Free shipping — Unlocked by a minimum order amount or a coupon.
+- Local pickup — Collect from the studio at no charge.
 
 
-### Lab 4 — AI Drafts the Policies, You Switch On Payments and Shipping
+### 3.3 Store Policies Drafted with AI
 
-Phase 1 · 25 minutes · LO4 · folder labs/lab-04-ai-policies-payments-shipping/
+Added to this course: Privacy, returns, shipping and payment pages in minutes.
+
+- Four pages customers read — Privacy (PDPA 2012), Returns & Refunds, Shipping & Delivery, Payment Methods.
+- Facts in, policy out — Give the AI the policy fact sheet; every number must match the checkout.
+- Not legal advice — The owner reviews and signs off every policy before it is published.
+
+
+### Key Concepts for Lab 3
+
+- Variable products carry attributes used for variations; every variation needs its own price.
+- Categories are hierarchical (Apparel > Shirts); tags are flat; up-sells show on the product page, cross-sells in the cart.
+- The CSV importer needs exact headers; for a first import leave 'Update existing products' unticked — it skips new SKUs.
+- AI can turn messy notes into a CSV, but you check every SKU, price and stock figure before importing.
+
+
+### Lab 3 — AI Drafts the Policies, You Switch On Payments and Shipping
+
+Phase 1 · 25 minutes · LO4 · folder labs/lab-03-ai-policies-payments-shipping/
 
 ChatGPT drafts the privacy, returns, shipping and payment pages. You make the checkout keep every promise.
 
@@ -929,9 +1000,9 @@ Add the T-shirt to the cart, go to Checkout, enter a Singapore address (fill Cit
 - Step 8 · YOU · Add the Customer care footer menu
 - Step 9 · YOU · Test the checkout as a customer
 
-![Checkout after Lab 4: delivery options, PayNow / bank transfer and the privacy / terms notice.](assets/screenshots/harbour-checkout.png)
+![Checkout after Lab 3: delivery options, PayNow / bank transfer and the privacy / terms notice.](assets/screenshots/harbour-checkout.png)
 
-*Checkout after Lab 4: delivery options, PayNow / bank transfer and the privacy / terms notice.*
+*Checkout after Lab 3: delivery options, PayNow / bank transfer and the privacy / terms notice.*
 
 **Checkpoint**
 
@@ -957,31 +1028,75 @@ Checkout shows three delivery options, two payment methods, and links to the Pri
 Ask ChatGPT for Terms and Conditions using the same facts, publish it, and point WooCommerce > Advanced > Terms and conditions at it.
 
 
-## Topic 05 — Manage Sales on WooCommerce Store  (LO5)
+### Activity — Discussion — Recommend Payment and Shipping for Customer Experience  (15 minutes)
 
-Orders & order statuses · Editing single orders · Refunds & restocking · Coupons and promotions
+Working from the store you have built, recommend the payment and shipping mix that would give your customers the best experience — and justify the trade-offs.
 
-**Key concepts**
+**Discussion prompts**
 
-- Orders and statuses — Pending, Processing, Completed, On-Hold, Cancelled, Refunded and Failed track an order's life.
-- Managing orders — View, filter and edit orders; change status, edit line items, add fees and apply coupons.
-- Adding orders manually — Phone and offline sales can be entered by hand and emailed to the customer for payment.
-- Refunds — Refund manually or through the gateway, with the option to restock the returned items.
-- Stock issues — Stock management, low-stock thresholds and out-of-stock handling prevent overselling.
-- Coupons and promotions — Percentage, fixed cart and fixed product discounts, with usage limits and expiry dates.
+- Which payment methods do your customers expect, and what does each one cost you?
+- Does the customer stay on your site, or get redirected? Why does that matter for conversion?
+- Would free shipping above a threshold raise your average order value or erode your margin?
+- Which shipping zones do you actually serve, and what happens to orders outside them?
 
+**What to produce**
 
-### Key Concepts for Lab 5
+A recommended payment and shipping configuration with the customer-experience reason for each choice.
 
-- Order statuses: Pending payment → On hold (bank transfer) → Processing → Completed; Refunded, Cancelled, Failed.
-- Refunds can restock items so inventory stays accurate.
-- Coupons: percentage, fixed cart or fixed product, with minimum spend, usage limits and expiry.
-- A Note to customer on the order emails the reply and keeps it on the record.
+> **Note:** Write your answer down — you will apply the same reasoning to your own store in the labs.
 
 
-### Lab 5 — Run a Day of Orders — Refund, Restock, Reply with AI
+## Topic 04 — Manage Sales with AI  (Lab 4 · LO5)
 
-Phase 1 · 25 minutes · LO5 · folder labs/lab-05-orders-refunds-ai-replies/
+Take the order, fix the problem, keep the customer.
+
+
+### 4.1 Manage Orders and Issues
+
+With AI: Read an order and fix it before it ships.
+
+- Order statuses — Pending payment, On hold, Processing, Completed, Cancelled, Refunded, Failed.
+- Editing an order — Change status, line items, fees, coupons and addresses; add notes.
+- Manual orders — Phone and studio sales entered by hand, then emailed for payment.
+- Stock issues — Stock management, low-stock thresholds and out-of-stock handling stop overselling.
+
+
+### 4.2 Manage Refund
+
+With AI: Refund the tote and put it back in stock.
+
+- Manual or gateway refunds — Refund through the gateway, or manually for bank transfers.
+- Restock — Tick 'Restock refunded items' so the stock figure stays right.
+
+
+### 4.3 Manage Coupon and Promotion
+
+With AI: WELCOME10 and RESORT15, built and checked.
+
+- Three discount types — Percentage, fixed cart and fixed product discounts.
+- Limits — Minimum spend, usage limits, product restrictions and expiry dates.
+
+
+### 4.4 Customer Replies Drafted with AI
+
+Added to this course: The apology email, with the right refund figure.
+
+- Facts first — Give the AI the order, the complaint and the decision you have already made.
+- Check the maths — Tote S$24.90 less its share of WELCOME10 = S$22.41, the figure WooCommerce shows.
+- Send from the order — Order notes > Note to customer emails the reply and keeps it on the record.
+
+
+### Key Concepts for Lab 4
+
+- Customers read four pages before paying: Privacy (PDPA), Returns & Refunds, Shipping & Delivery, Payment Methods.
+- Offline payments (PayNow / bank transfer, pay at pickup) hold the order until payment is confirmed.
+- A shipping zone holds methods: flat rate, free shipping above a minimum, local pickup.
+- Shipping costs are entered excluding tax — enter 4.59 (taxable) to charge S$5.00.
+
+
+### Lab 4 — Run a Day of Orders — Refund, Restock, Reply with AI
+
+Phase 1 · 25 minutes · LO5 · folder labs/lab-04-orders-refunds-ai-replies/
 
 Take an order with WELCOME10, refund a damaged item with restocking, and send a reply ChatGPT drafted.
 
@@ -1109,9 +1224,9 @@ FORMAT: A table: issue · status · action · reply.
 - Step 7 · YOU · Enter a phone order by hand
 - Step 8 · AI PROMPT · Triage the rest of the inbox with AI
 
-![The order screen after Lab 5: coupon, restocked refund and the note to the customer.](assets/screenshots/harbour-order-refund.png)
+![The order screen after Lab 4: coupon, restocked refund and the note to the customer.](assets/screenshots/harbour-order-refund.png)
 
-*The order screen after Lab 5: coupon, restocked refund and the note to the customer.*
+*The order screen after Lab 4: coupon, restocked refund and the note to the customer.*
 
 **Checkpoint**
 
@@ -1136,18 +1251,35 @@ The order shows WELCOME10, a refund for the tote, a stock-increase order note, a
 Ask ChatGPT for a polite 'back in stock soon' message, then set the Classic Denim Jacket stock to 0 and check how the product page reports it.
 
 
-## Topic 06 — Manage WooCommerce Performance  (LO6)
+## Topic 05 — Manage Store Performance with AI  (Lab 5 · LO6)
 
-Reports & Analytics · Customer & stock reports · Dashboard widgets · eCommerce metrics · Google Analytics
+Read the reports, get found in AI search, and run a campaign that tracks itself.
 
-**Key concepts**
 
-- WooCommerce Reports — Orders, Customers, Stock and Taxes — the built-in view of how the store is performing.
-- Sales reports — Gross and net sales by date, product and category, plus top sellers, top earners and coupon usage.
-- Customer and stock reports — Customers versus guests, and low-stock, out-of-stock and on-backorder items.
-- Dashboard widgets — At-a-glance store status on the WordPress dashboard, configurable through Screen Options.
-- eCommerce metrics — Conversion rate, traffic, revenue by source, retention, repeat purchase and refund rate.
-- Google Analytics — Integrating analytics attributes revenue to channels and shows where customers drop off.
+### 5.1 Sales Reports
+
+With AI: Pick the three numbers the owner sees every week.
+
+- Reports and Analytics — Orders, revenue, products, categories, coupons, customers and stock.
+- eCommerce metrics — Conversion rate, average order value, revenue by channel, repeat purchase and refund rate.
+- Criteria for a metric — Actionable, comparable over time, attributable to a cause, and tied to a decision.
+
+
+### 5.2 Dashboard Widgets
+
+With AI: Store status at a glance.
+
+- WooCommerce Status widget — Sales this month, top seller, orders awaiting processing, low and out-of-stock items.
+- Screen Options — Choose which widgets each admin user sees on the dashboard.
+
+
+### 5.3 Google Analytics Integration
+
+With AI: See which channel brought the buyer.
+
+- Google Analytics for WooCommerce — Sends product views, add-to-cart and purchase events to GA4.
+- Order attribution — WooCommerce records each order's source, medium and campaign from its UTM tags.
+- Extending the store — Subscriptions, Bookings and Memberships add their own reports.
 
 
 ### Activity — Discussion — Metrics to Measure Store Performance  (15 minutes)
@@ -1168,54 +1300,63 @@ A shortlist of performance metrics with the criteria used to select them and the
 > **Note:** Write your answer down — you will apply the same reasoning to your own store in the labs.
 
 
-## Topic 07 — SEO in the Age of AI Search  (LO6)
+### 5.4 Search Performance: SEO in the Age of AI Search
 
-How search works · SEO, AEO & GEO · E-E-A-T · AI for SEO · On-page SEO · Digital marketing with GenAI
+Added to this course: AI writes the meta titles, descriptions and alt text.
 
-**Key concepts**
-
-- How search works — Crawl, index, rank and serve — and what a modern results page looks like.
-- SEO, AEO and GEO — Rich snippets, featured snippets and AI Overviews, and how the three disciplines connect.
+- How search works — Crawl, index, rank and serve, and what a modern results page holds.
+- SEO, AEO and GEO — Rank in results, win the featured answer, and get cited in AI Overviews.
 - E-E-A-T — Experience, Expertise, Authoritativeness and Trustworthiness.
-- AI tools for SEO — Write prompts around objective, keywords, intent, structure and on-page needs.
-- Titles, descriptions and URLs — The on-page elements that shape how a page appears in search.
-- Campaigns that measure themselves — Social posts and newsletters carry a coupon and UTM tags, so Analytics shows which channel sold.
+- On-page SEO — Meta title ≈ 60 characters (AIOSEO: 600 pixels), meta description ≈ 155, clean URLs, a sitemap and alt text.
 
 
-### Key Concepts for Lab 6
+### 5.5 Campaign Performance: AI Marketing That Measures Itself
 
-- One primary keyword per page; meta title ≈ 60 characters (AIOSEO: 600 pixels), meta description ≈ 155.
-- AI cannot see live search volumes — treat its estimates as guesses and decide yourself.
-- Alt text and an XML sitemap help crawlers find and understand the store.
+Added to this course: Social posts and a newsletter with a coupon and UTM tags.
+
+- One campaign, three channels — Instagram, Facebook and a MailPoet newsletter, each in its own format.
+- UTM tags plus a coupon — utm_source, utm_medium and utm_campaign, plus RESORT15, attribute each sale to a channel.
+- Read the result — Analytics > Coupons and the order's attribution show which channel sold.
 
 
-### Lab 6 — Get Found — AI Writes the SEO, You Approve It
+### Key Concepts for Lab 5
 
-Phase 2 · 10 minutes · LO6 · folder labs/lab-06-ai-seo/
+- Order statuses: Pending payment → On hold (bank transfer) → Processing → Completed; Refunded, Cancelled, Failed.
+- Refunds can restock items so inventory stays accurate.
+- Coupons: percentage, fixed cart or fixed product, with minimum spend, usage limits and expiry.
+- A Note to customer on the order emails the reply and keeps it on the record.
 
-Keywords from ChatGPT, meta titles under 60 characters, descriptions under 155, alt text on every image.
 
-Objective: Maintain web content that search engines and AI answers can find, and set the search metrics you will track.
+### Lab 5 — Get Found, Then Launch the Resort Linen Drop — SEO, Social, Results
+
+Phase 2 · 25 minutes · LO6 · folder labs/lab-05-ai-seo-and-campaign/
+
+ChatGPT writes the SEO and the campaign; RESORT15 and UTM tags prove which channel sold.
+
+Objective: Maintain content that search engines and AI answers can find, then develop and review the metrics that show whether the store and its campaign perform.
 
 **The business scenario**
 
-The store works, but nobody can find it. 'Linen shirt singapore' should land on Harbour & Co, not a marketplace. You ask ChatGPT for buyer keywords, map one keyword to each page, write meta titles and descriptions in All in One SEO, fill the alt text, and check the sitemap Google will crawl.
+The store works, but nobody can find it — and the Resort Linen Drop goes live today. In Part A ChatGPT researches buyer keywords and writes the meta titles, descriptions and alt text you apply in All in One SEO. In Part B you create RESORT15, ChatGPT writes the posts, the post image and the newsletter, you tag every link, place a test order through the Instagram link and read the results.
 
 **You will deliver**
 
 - A keyword map: one primary keyword per page, from AI research checked by you
-- Meta title (≤ 60 characters) and meta description (≤ 155 characters) on the home page and three products
-- Alt text on every product image
-- The XML sitemap live at /sitemap.xml
+- Meta titles (≤ 60) and descriptions (≤ 155) on the home page and three products; alt text on every image
+- RESORT15: 15% off the four Resort Linen pieces, 14 days, one use per customer
+- AI-drafted Instagram and Facebook posts and a MailPoet newsletter, every link UTM-tagged
+- A test order through the Instagram link and a one-page results review
 
 **Who does what**
 
-- AI does — ChatGPT researches buyer keywords and writes titles, descriptions and alt text to the character limits.
-- You decide — You choose the keyword for each page and approve the wording — AI cannot see your rankings.
+- AI does — ChatGPT researches keywords, writes meta text to the character limits, drafts the posts, image and newsletter, and analyses the week-1 results.
+- You decide — You choose the keyword for each page, approve every word before it is public, and decide what to change from the numbers.
 
 **Plugins and themes**
 
 - All in One SEO (AIOSEO) — Plugins > Add Plugin > search 'All in One SEO' > Install Now > Activate
+- MailPoet — Plugins > Add Plugin > search 'MailPoet' > Install Now > Activate
+- WooCommerce Analytics — Built in — Analytics > Coupons / Orders
 
 **Lab files**
 
@@ -1226,8 +1367,17 @@ The store works, but nobody can find it. 'Linen shirt singapore' should land on 
 | data/keyword-map-template.csv | Fill in: page · primary keyword · title · description |
 | data/seo-meta-reference.csv | Reference answer for all 12 products |
 | data/product-catalogue.csv | Every product with its short description — context for the prompts |
+| data/campaign-brief.txt | Offer, channels, hashtag, UTM links and KPIs |
+| data/campaign-week1.csv | Mock week-1 results for the AI review |
+| templates/social-post-mockup.html | Open in a browser: load your image, paste your caption, screenshot the post |
+| templates/newsletter-resort-linen.html | Reference newsletter |
+| templates/social-posts-reference.txt | Reference captions |
+| assets/images/social-resort-linen-1080.jpg | Starter post image (1080 × 1080) |
+| assets/images/newsletter-header.jpg | Newsletter header image |
 
 **Step by step**
+
+**Part A — Get Found — AI Writes the SEO, You Approve It**
 
 1. Install All in One SEO — Plugins > Add Plugin
 
@@ -1295,96 +1445,9 @@ Confirm 'Enable Sitemap' is on, then click Open Sitemap. Products, pages and pro
 https://YOUR-SITE/sitemap.xml
 ```
 
-**Prompt Playbook — step → prompt → step → prompt**
+**Part B — Launch the Resort Linen Drop — Social, Newsletter, Results**
 
-- Step 1 · YOU · Install All in One SEO
-- Step 2 · AI PROMPT · Research buyer keywords
-- Step 3 · AI PROMPT · Write the meta titles and descriptions
-- Step 4 · YOU · Apply them to the products
-- Step 5 · YOU · Set the home page meta
-- Step 6 · AI PROMPT · Write alt text for every image
-- Step 7 · YOU · Check the sitemap
-
-![AIOSEO Settings after Lab 6: SERP Preview, Product Title and Meta Description.](assets/screenshots/harbour-aioseo.png)
-
-*AIOSEO Settings after Lab 6: SERP Preview, Product Title and Meta Description.*
-
-**Checkpoint**
-
-The AIOSEO snippet preview for the Resort Linen Camp Shirt shows a keyword-led title under 60 characters and a description under 155.
-
-- ☐ AIOSEO is active
-- ☐ Home page and three products carry keyword-led titles ≤ 60 characters and descriptions ≤ 155
-- ☐ Each of the four pages targets a different primary keyword
-- ☐ Every product image has alt text
-- ☐ /sitemap.xml lists products and pages
-
-**Troubleshooting**
-
-| Symptom | Fix |
-|---|---|
-| No AIOSEO Settings panel on the product | Open Screen Options at the top of the editor and tick AIOSEO Settings. |
-| The snippet preview shows the old title | Click Update, then reload — the preview reads the saved value. |
-| ChatGPT's counts are wrong | Trust AIOSEO's counters: the title must stay under 600 pixels (about 60 characters), the description under 160 characters. |
-
-**Stretch challenge**
-
-Ask ChatGPT for an FAQ block for the Resort Linen Camp Shirt (AEO) and add it to the long description.
-
-
-### Key Concepts for Lab 7
-
-- Each channel needs its own format: Instagram caption + image, Facebook post, newsletter subject + preheader.
-- UTM tags (source, medium, campaign) plus a campaign coupon attribute each sale to a channel.
-- A useful metric is actionable, comparable over time, attributable and tied to a decision.
-
-
-### Lab 7 — Launch the Resort Linen Drop — Social, Newsletter, Results
-
-Phase 3 · 10 minutes · LO6 · folder labs/lab-07-ai-digital-marketing/
-
-AI writes the posts and the newsletter; RESORT15 and UTM tags prove which one sold.
-
-Objective: Develop and review the metrics that measure whether the store and its campaign are performing.
-
-**The business scenario**
-
-The Resort Linen Drop goes live today. Rachel wants an Instagram post, a Facebook post and a newsletter — and proof of what worked. You create the RESORT15 coupon, ask ChatGPT for the posts, the post image and the newsletter, tag every link, place a test order through the Instagram link, and read the results.
-
-**You will deliver**
-
-- RESORT15: 15% off the four Resort Linen pieces, 14 days, one use per customer
-- An Instagram post and a Facebook post (caption, hashtags, image) drafted by AI and approved by you
-- A MailPoet newsletter with UTM-tagged links
-- A test order through the Instagram link showing its source in the order
-- A one-page results review: three metrics, what they mean, what to change
-
-**Who does what**
-
-- AI does — ChatGPT writes the captions, generates the post image, drafts the newsletter and analyses week-1 results.
-- You decide — You approve every word before it is public and decide what to change from the numbers.
-
-**Plugins and themes**
-
-- MailPoet — Plugins > Add Plugin > search 'MailPoet' > Install Now > Activate
-- WooCommerce Analytics — Built in — Analytics > Coupons / Orders
-
-**Lab files**
-
-| File | What it is |
-|---|---|
-| data/brand-brief.txt | Brand brief |
-| data/campaign-brief.txt | Offer, channels, hashtag, UTM links and KPIs |
-| data/campaign-week1.csv | Mock week-1 results for the AI review |
-| templates/social-post-mockup.html | Open in a browser: load your image, paste your caption, screenshot the post |
-| templates/newsletter-resort-linen.html | Reference newsletter |
-| templates/social-posts-reference.txt | Reference captions |
-| assets/images/social-resort-linen-1080.jpg | Starter post image (1080 × 1080) |
-| assets/images/newsletter-header.jpg | Newsletter header image |
-
-**Step by step**
-
-1. Create the RESORT15 coupon — Marketing > Coupons > Add coupon
+8. Create the RESORT15 coupon — Marketing > Coupons > Add coupon
 
 Limit it to the four Resort Linen products and give it a 14-day expiry.
 
@@ -1394,7 +1457,7 @@ Usage restriction > Products: Resort Linen Camp Shirt, Linen Wide-Leg Trousers, 
 Usage limits: Usage limit per user 1
 ```
 
-2. Write the social posts — ChatGPT (chatgpt.com) — a new chat
+9. Write the social posts — ChatGPT (chatgpt.com) — a new chat
 
 Attach data/brand-brief.txt and data/campaign-brief.txt, then paste the prompt.
 
@@ -1408,7 +1471,7 @@ FORMAT: Three headed sections.
 
 ✓ Expected: Three on-brand drafts. Compare with templates/social-posts-reference.txt.
 
-3. Generate the post image — Same ChatGPT chat
+10. Generate the post image — Same ChatGPT chat
 
 ```text
 TASK: Create a square 1080 × 1080 Instagram image for the Resort Linen Drop.
@@ -1417,13 +1480,13 @@ CONSTRAINTS: Flat lay on sand linen: a sand linen camp-collar shirt with a sea-g
 
 ✓ Expected: A square image with clear space. If slow, use assets/images/social-resort-linen-1080.jpg.
 
-4. Mock up the post for approval — templates/social-post-mockup.html (browser)
+11. Mock up the post for approval — templates/social-post-mockup.html (browser)
 
 Open the mock-up, load your image, paste the Instagram caption. This is what Rachel approves before anything is posted.
 
 ✓ Expected: An Instagram-style post preview with your image, caption and hashtags.
 
-5. Draft the newsletter in MailPoet — MailPoet > Emails > Create > Newsletter
+12. Draft the newsletter in MailPoet — MailPoet > Emails > Create > Newsletter
 
 Ask ChatGPT for the copy, pick a simple template, paste the copy and add the header image. Every button links to the newsletter-tagged URL. Use Preview to view it in the browser — do not send to a real list.
 
@@ -1437,7 +1500,7 @@ CONSTRAINTS: Use British spelling. Prices in S$ including 9% GST. Do not invent 
 FORMAT: Subject, preheader, then the body as plain text with [BUTTON] markers.
 ```
 
-6. Place a test order through the Instagram link — Private browser window
+13. Place a test order through the Instagram link — Private browser window
 
 Open the Instagram-tagged link, add the Resort Linen Camp Shirt, apply RESORT15 and check out.
 
@@ -1447,13 +1510,13 @@ https://YOUR-SITE/product-category/apparel/?utm_source=instagram&utm_medium=soci
 
 ✓ Expected: RESORT15 takes 15% off the shirt only; the order's Order attribution panel shows Source: instagram.
 
-7. Read the campaign numbers — Analytics > Coupons · Analytics > Orders
+14. Read the campaign numbers — Analytics > Coupons · Analytics > Orders
 
 Set the date range to today. Note orders, net sales and discount for RESORT15. Open the order and check its attribution.
 
 ✓ Expected: RESORT15 listed with 1 order and its discounted amount.
 
-8. Ask AI to evaluate week 1 — Same ChatGPT chat
+15. Ask AI to evaluate week 1 — Same ChatGPT chat
 
 Attach data/campaign-week1.csv and paste the prompt.
 
@@ -1469,23 +1532,35 @@ FORMAT: Table: metric · value · criteria met · meaning. Then two recommendati
 
 **Prompt Playbook — step → prompt → step → prompt**
 
-- Step 1 · YOU · Create the RESORT15 coupon
-- Step 2 · AI PROMPT · Write the social posts
-- Step 3 · AI PROMPT · Generate the post image
-- Step 4 · YOU · Mock up the post for approval
-- Step 5 · AI PROMPT · Draft the newsletter in MailPoet
-- Step 6 · YOU · Place a test order through the Instagram link
-- Step 7 · YOU · Read the campaign numbers
-- Step 8 · AI PROMPT · Ask AI to evaluate week 1
+- Step 1 · YOU · Install All in One SEO
+- Step 2 · AI PROMPT · Research buyer keywords
+- Step 3 · AI PROMPT · Write the meta titles and descriptions
+- Step 4 · YOU · Apply them to the products
+- Step 5 · YOU · Set the home page meta
+- Step 6 · AI PROMPT · Write alt text for every image
+- Step 7 · YOU · Check the sitemap
+- Step 8 · YOU · Create the RESORT15 coupon
+- Step 9 · AI PROMPT · Write the social posts
+- Step 10 · AI PROMPT · Generate the post image
+- Step 11 · YOU · Mock up the post for approval
+- Step 12 · AI PROMPT · Draft the newsletter in MailPoet
+- Step 13 · YOU · Place a test order through the Instagram link
+- Step 14 · YOU · Read the campaign numbers
+- Step 15 · AI PROMPT · Ask AI to evaluate week 1
 
-![Analytics > Coupons after Lab 7: the campaign coupon with its orders.](assets/screenshots/harbour-analytics-coupons.png)
+![Analytics > Coupons after Lab 5: the campaign coupon with its orders.](assets/screenshots/harbour-analytics-coupons.png)
 
-*Analytics > Coupons after Lab 7: the campaign coupon with its orders.*
+*Analytics > Coupons after Lab 5: the campaign coupon with its orders.*
 
 **Checkpoint**
 
 Analytics > Coupons shows RESORT15 with your test order, and that order's Order attribution says Source: instagram.
 
+- ☐ AIOSEO is active
+- ☐ Home page and three products carry keyword-led titles ≤ 60 characters and descriptions ≤ 155
+- ☐ Each of the four pages targets a different primary keyword
+- ☐ Every product image has alt text
+- ☐ /sitemap.xml lists products and pages
 - ☐ RESORT15 applies to the four Resort Linen pieces only
 - ☐ Social posts and newsletter were drafted by AI and approved by you
 - ☐ Every campaign link carries utm_source, utm_medium and utm_campaign
@@ -1496,6 +1571,9 @@ Analytics > Coupons shows RESORT15 with your test order, and that order's Order 
 
 | Symptom | Fix |
 |---|---|
+| No AIOSEO Settings panel on the product | Open Screen Options at the top of the editor and tick AIOSEO Settings. |
+| The snippet preview shows the old title | Click Update, then reload — the preview reads the saved value. |
+| ChatGPT's counts are wrong | Trust AIOSEO's counters: the title must stay under 600 pixels (about 60 characters), the description under 160 characters. |
 | RESORT15 'is not applicable to selected products' | Add a Resort Linen product to the cart — the coupon is product-restricted. |
 | Analytics shows nothing | Analytics refreshes on a schedule. In the Data status box (top right) click Update now, then reload the report. |
 | Order attribution says 'Direct' | Open the tagged link in a NEW private window before adding to cart; the source is captured on arrival. |
@@ -1509,14 +1587,12 @@ Ask ChatGPT to turn the week-1 review into a 5-slide summary for Rachel, with on
 ## Putting It Together — One Store, End to End
 
 - Lab 1 — Launch Harbour & Co — WooCommerce Plus an AI-Designed Homepage: Your site's front page shows the Harbour & Co homepage, prices display in S$, and Users lists Daniel Koh as Shop manager.
-- Lab 2 — Shoot and Write a Product with AI: The product page shows your AI photo, the short description beside it, S$24.90 sale price and the Apparel > Shirts category.
-- Lab 3 — Let AI Build the New-Season Catalogue: All Products lists 11 products, the polo shows S$39.90 – S$41.90, and Apparel has Shirts, Bottoms and Outerwear under it.
-- Lab 4 — AI Drafts the Policies, You Switch On Payments and Shipping: Checkout shows three delivery options, two payment methods, and links to the Privacy Policy and Terms.
-- Lab 5 — Run a Day of Orders — Refund, Restock, Reply with AI: The order shows WELCOME10, a refund for the tote, a stock-increase order note, and your note to the customer.
-- Lab 6 — Get Found — AI Writes the SEO, You Approve It: The AIOSEO snippet preview for the Resort Linen Camp Shirt shows a keyword-led title under 60 characters and a description under 155.
-- Lab 7 — Launch the Resort Linen Drop — Social, Newsletter, Results: Analytics > Coupons shows RESORT15 with your test order, and that order's Order attribution says Source: instagram.
+- Lab 2 — Shoot, Write and Import the New-Season Catalogue with AI: All Products lists 11 products with your AI-photographed Classic Cotton T-Shirt among them, the polo shows S$39.90 – S$41.90, and Apparel has Shirts, Bottoms and Outerwear under it.
+- Lab 3 — AI Drafts the Policies, You Switch On Payments and Shipping: Checkout shows three delivery options, two payment methods, and links to the Privacy Policy and Terms.
+- Lab 4 — Run a Day of Orders — Refund, Restock, Reply with AI: The order shows WELCOME10, a refund for the tote, a stock-increase order note, and your note to the customer.
+- Lab 5 — Get Found, Then Launch the Resort Linen Drop — SEO, Social, Results: Analytics > Coupons shows RESORT15 with your test order, and that order's Order attribution says Source: instagram.
 
-> **Note:** If you can repeat these seven checkpoints on your own store, you can set up, run and market a professional eCommerce store with Generative AI.
+> **Note:** If you can repeat these five checkpoints on your own store, you can set up, run and market a professional eCommerce store with Generative AI.
 
 
 ## Rebuild the Store at Home

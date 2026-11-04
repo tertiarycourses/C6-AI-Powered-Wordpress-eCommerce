@@ -1,0 +1,52 @@
+LAB 5 — Get Found, Then Launch the Resort Linen Drop — SEO, Social, Results
+Build a Professional eCommerce Store with Generative AI (C6) · paste each prompt into ChatGPT
+========================================================================
+
+Before the first prompt: attach data/brand-brief.txt (paperclip icon in ChatGPT).
+
+[PROMPT 1] Step 2 — Research buyer keywords
+------------------------------------------------------------------------
+ROLE: You are an SEO strategist for Singapore fashion retailers.
+CONTEXT: Keyword seeds and the brand brief are attached. Pages to rank: Home, Resort Linen Camp Shirt, Linen Wide-Leg Trousers, Classic Cotton T-Shirt.
+TASK: Suggest 12 buyer-intent keywords and assign ONE primary keyword to each page so no two pages compete.
+CONSTRAINTS: Singapore searchers, English. Prefer specific, high-relevance, lower-competition phrases. Mark each as transactional or commercial. Do not include competitor brand names. You cannot see live search volumes — say so and rate volume as an estimate only.
+FORMAT: Table 1: keyword · intent · estimated volume (low/med/high) · why. Table 2: page · primary keyword.
+
+[PROMPT 2] Step 3 — Write the meta titles and descriptions
+------------------------------------------------------------------------
+TASK: For each page in your map, write a meta title and a meta description.
+CONSTRAINTS: Title ≤ 60 characters, primary keyword first, then '| Harbour & Co'. Description ≤ 155 characters, includes the keyword naturally, states one concrete fact (fabric, price or delivery) and ends with a reason to click. Count the characters and show the count. Use British spelling. Prices in S$ including 9% GST. Do not invent facts, reviews, awards or sustainability claims.
+FORMAT: Table: page · meta title · chars · meta description · chars.
+
+[PROMPT 3] Step 6 — Write alt text for every image
+------------------------------------------------------------------------
+TASK: Write alt text for each Harbour & Co product image: what the image shows, colour, product name.
+CONSTRAINTS: ≤ 125 characters, no 'image of', no keyword stuffing.
+FORMAT: Table: SKU · alt text.
+
+[PROMPT 4] Step 9 — Write the social posts
+------------------------------------------------------------------------
+ROLE: You are Harbour & Co's social media lead.
+CONTEXT: Brand brief and campaign brief attached.
+TASK: Write (1) an Instagram feed caption, (2) a 3-frame Instagram story script, and (3) a Facebook page post for the Resort Linen Drop.
+CONSTRAINTS: Lead with the product, not the discount. Mention RESORT15 and the 14-day window once. Instagram ≤ 150 words with 5 hashtags including #HarbourResortLinen; Facebook ≤ 90 words with the tracked link from the brief. Use British spelling. Prices in S$ including 9% GST. Do not invent facts, reviews, awards or sustainability claims. No urgency tricks such as 'only 2 left'.
+FORMAT: Three headed sections.
+
+[PROMPT 5] Step 10 — Generate the post image
+------------------------------------------------------------------------
+TASK: Create a square 1080 × 1080 Instagram image for the Resort Linen Drop.
+CONSTRAINTS: Flat lay on sand linen: a sand linen camp-collar shirt with a sea-glass palm print, wide-leg linen trousers and a round rattan bag. Soft daylight. Leave the top third empty for text. Add the words 'Resort Linen' in a clean sans-serif, Harbour Navy #1B2A41. No other text, no people, no logos.
+
+[PROMPT 6] Step 12 — Draft the newsletter in MailPoet
+------------------------------------------------------------------------
+TASK: Write a launch newsletter for the Resort Linen Drop: subject line (≤ 45 characters), preheader (≤ 90), a 3-sentence opening, the four products with one line each, the RESORT15 offer and a button 'Shop Resort Linen'.
+CONSTRAINTS: Use British spelling. Prices in S$ including 9% GST. Do not invent facts, reviews, awards or sustainability claims.
+FORMAT: Subject, preheader, then the body as plain text with [BUTTON] markers.
+
+[PROMPT 7] Step 15 — Ask AI to evaluate week 1
+------------------------------------------------------------------------
+ROLE: You are an eCommerce performance analyst.
+CONTEXT: The attached CSV is week 1 of the Resort Linen Drop by channel: sessions, orders, revenue, RESORT15 uses, refunds, newsletter opens and clicks.
+TASK: Pick the THREE metrics that best show whether the campaign works. For each, apply four criteria — actionable, comparable over time, attributable to a channel, tied to a decision — and say what the number tells us. Then recommend two changes for week 2.
+CONSTRAINTS: Use only numbers in the file; show your calculations (conversion rate = orders ÷ sessions).
+FORMAT: Table: metric · value · criteria met · meaning. Then two recommendations.

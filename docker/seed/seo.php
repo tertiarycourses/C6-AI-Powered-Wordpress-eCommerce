@@ -1,5 +1,5 @@
 <?php
-// Lab 6 reference: AIOSEO title, description and focus keyphrase on every product, alt text on every image.
+// Lab 5 Part A reference: AIOSEO title, description and focus keyphrase on every product, alt text on every image.
 $data = json_decode( file_get_contents( '/seed/catalogue.json' ), true, 512, JSON_INVALID_UTF8_SUBSTITUTE );
 if ( ! function_exists( 'aioseo' ) ) { WP_CLI::error( 'All in One SEO is not active' ); }
 foreach ( $data['catalogue'] as $p ) {

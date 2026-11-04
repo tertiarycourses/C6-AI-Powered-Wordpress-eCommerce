@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Harbour & Co reference store — installs exactly what learners install in Labs 1–7 and
+# Harbour & Co reference store — installs exactly what learners install in Labs 1–5 and
 # seeds the finished store from the lab kits (labs/ is mounted read-only).
 #   docker compose up -d && bash setup.sh
 #   open http://localhost:8088   ·   admin: /wp-admin  (training1@tertiaryinfotech.com / harbour-local)
@@ -23,12 +23,12 @@ wp rewrite structure '/%postname%/'
 wp plugin install woocommerce --activate
 wp theme install storefront --activate
 wp plugin install /labs/lab-01-launch-harbour-and-co/plugin/harbour-co-toolkit.zip --activate --force
-# Lab 6 + Lab 7
+# Lab 5 (SEO + campaign)
 wp plugin install all-in-one-seo-pack mailpoet --activate
 wp plugin delete akismet hello >/dev/null 2>&1 || true
 
 wp eval-file /seed/seed.php
-wp eval-file /seed/seo.php      # Lab 6 reference: AIOSEO meta + alt text
+wp eval-file /seed/seo.php      # Lab 5 Part A reference: AIOSEO meta + alt text
 # push the seeded orders into WooCommerce Analytics (same as Analytics > Settings > Import historical data)
 wp eval 'Automattic\WooCommerce\Admin\ReportsSync::regenerate_report_data( null, false );'
 wp action-scheduler run --batch-size=100 >/dev/null || true

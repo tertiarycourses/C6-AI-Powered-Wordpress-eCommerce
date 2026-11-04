@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Social post mock-up — Harbour & Co</title>
+<style>
+body{margin:0;background:#EFE6D8;font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;display:flex;flex-direction:column;align-items:center;padding:24px}
+.tools{max-width:470px;width:100%;margin-bottom:14px;color:#1B2A41;font-size:14px}
+.tools label{display:block;margin:6px 0}
+.post{background:#fff;width:470px;border:1px solid #dbdbdb;border-radius:8px;overflow:hidden}
+.head{display:flex;align-items:center;gap:10px;padding:12px}
+.avatar{width:34px;height:34px;border-radius:50%;background:#1B2A41;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px}
+.name{font-weight:600;font-size:14px}.sub{font-size:12px;color:#8e8e8e}
+.img{width:470px;height:470px;background:#f2f2f2 center/cover no-repeat;display:flex;align-items:center;justify-content:center;color:#999}
+.icons{padding:10px 12px 4px;font-size:22px;letter-spacing:10px}
+.likes{padding:0 12px;font-weight:600;font-size:14px}
+.cap{padding:6px 12px 14px;font-size:14px;line-height:1.45;white-space:pre-wrap;outline:none}
+.cap b{font-weight:600}
+</style></head><body>
+<div class="tools">
+<b>Lab 5 — load your AI image, then click the caption to paste yours.</b> Screenshot the white post for your campaign review.
+<label>Image: <input type="file" id="f" accept="image/*"></label>
+</div>
+<div class="post">
+<div class="head"><div class="avatar">H&amp;C</div><div><div class="name">harbourandco.sg</div><div class="sub">Singapore · Sponsored</div></div></div>
+<div class="img" id="img">your 1080 × 1080 image</div>
+<div class="icons">♡ 💬 ➤</div>
+<div class="likes">1,024 likes</div>
+<div class="cap" contenteditable="true"><b>harbourandco.sg</b> Paste your AI-written caption here…
+#HarbourResortLinen</div>
+</div>
+<script>
+document.getElementById('f').addEventListener('change',function(e){var r=new FileReader();r.onload=function(){var d=document.getElementById('img');d.style.backgroundImage='url('+r.result+')';d.textContent=''};r.readAsDataURL(e.target.files[0])});
+</script></body></html>

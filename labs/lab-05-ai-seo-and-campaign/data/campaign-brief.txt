@@ -1,0 +1,11 @@
+CAMPAIGN BRIEF — Resort Linen Drop (Lab 5, Part B)
+=========================================
+Goal           Sell the four Resort Linen pieces in the first 14 days after launch.
+Offer          RESORT15 — 15% off the Resort Linen pieces · 14 days · one use per customer
+Products       Resort Linen Camp Shirt · Linen Wide-Leg Trousers · Rattan Crossbody Bag · Linen Summer Shirt
+Channels       Instagram (feed post + story) · Facebook page post · MailPoet newsletter to subscribers
+Hashtag        #HarbourResortLinen
+Tracking link  https://YOUR-SITE/product-category/apparel/?utm_source=instagram&utm_medium=social&utm_campaign=resort-linen
+               (newsletter: utm_source=newsletter&utm_medium=email&utm_campaign=resort-linen)
+KPIs           orders using RESORT15 · revenue from the four products · newsletter click rate
+Approval       Rachel approves every post and the newsletter before anything is published.

@@ -2,7 +2,7 @@
 # Mirrors the classroom demo sites so trainers can rehearse every lab offline.
 #   docker compose up -d          → http://localhost:8088  (admin: /wp-admin)
 #   bash setup.sh                 → installs WooCommerce, Storefront, the lab plugins and the
-#                                   Harbour & Co reference store (the state learners reach after Lab 7)
+#                                   Harbour & Co reference store (the state learners reach after Lab 5)
 #   docker compose down -v        → wipe everything (like the nightly reset of wp1–wp5)
 name: harbour-co
 services:

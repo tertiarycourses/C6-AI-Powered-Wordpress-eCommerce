@@ -1,6 +1,6 @@
 <?php
 /**
- * Build the Harbour & Co reference store — the state a learner reaches after Labs 1–7 —
+ * Build the Harbour & Co reference store — the state a learner reaches after Labs 1–5 —
  * from the lab kits themselves (labs/ is mounted read-only at /labs).
  *
  *   docker compose run --rm cli eval-file /seed/seed.php
@@ -95,7 +95,7 @@ if ( ! get_user_by( 'login', 'daniel.koh' ) ) {
 }
 $log( 'Home (Custom HTML + New arrivals pattern), About Us, Daniel Koh = Shop manager' );
 
-WP_CLI::log( 'Lab 2 — Classic Cotton T-Shirt and Cotton Cap' );
+WP_CLI::log( 'Lab 2 Part A — Classic Cotton T-Shirt and Cotton Cap' );
 $img_dir = $lab( 3 ) . '/assets/images';
 function hc_term_path( $path ) {
 	$parent = 0; $id = 0;
@@ -124,7 +124,7 @@ $tee = hc_simple( $by['TSHIRT-CLASSIC-001'], $img_dir );
 $cap = hc_simple( $by['CAP-COTTON-001'], $img_dir );
 $log( "T-shirt #$tee, cap #$cap" );
 
-WP_CLI::log( 'Lab 3 — CSV importer (core + AI new-season CSV), variable polo, linked products' );
+WP_CLI::log( 'Lab 2 Part B — CSV importer (core + AI new-season CSV), variable polo, linked products' );
 include_once WC_ABSPATH . 'includes/import/class-wc-product-csv-importer.php';
 $map = array( 'Type' => 'type', 'SKU' => 'sku', 'Name' => 'name', 'Published' => 'published', 'Short description' => 'short_description',
 	'Regular price' => 'regular_price', 'Sale price' => 'sale_price', 'Categories' => 'category_ids', 'Tags' => 'tag_ids',
@@ -171,7 +171,7 @@ $t = wc_get_product( $tee ); $t->set_upsell_ids( array( $pid ) );
 $t->set_cross_sell_ids( array( $cap, wc_get_product_id_by_sku( 'TOTE-CANVAS-001' ) ) ); $t->save();
 $log( 'Polo #' . $pid . ' with 6 variations; T-shirt up-sell + cross-sells' );
 
-WP_CLI::log( 'Lab 4 — policy pages, payments, shipping zone' );
+WP_CLI::log( 'Lab 3 — policy pages, payments, shipping zone' );
 $pages = array( 'privacy-policy.html' => 'Privacy Policy', 'returns-and-refunds.html' => 'Returns & Refunds',
 	'shipping-and-delivery.html' => 'Shipping & Delivery', 'payment-methods.html' => 'Payment Methods', 'terms-and-conditions.html' => 'Terms and Conditions' );
 $pid_of = array();
@@ -203,7 +203,7 @@ foreach ( $zone->get_shipping_methods() as $iid => $m ) {
 WC_Cache_Helper::get_transient_version( 'shipping', true );
 $log( 'Four policies + T&C, PayNow/bank transfer, pay at pickup, zone Singapore (flat S$5 · free ≥ S$100 · pickup)' );
 
-WP_CLI::log( 'Lab 5 — WELCOME10, an order with a restocked refund and a customer note' );
+WP_CLI::log( 'Lab 4 — WELCOME10, an order with a restocked refund and a customer note' );
 function hc_coupon( $code, $args ) {
 	$id = wc_get_coupon_id_by_code( $code ); $c = new WC_Coupon( $id ?: 0 ); $c->set_code( $code );
 	foreach ( $args as $k => $v ) { $c->{"set_$k"}( $v ); }
@@ -237,7 +237,7 @@ if ( ! $existing ) {
 	$log( 'Order #' . $o->get_id() . ' completed, tote refunded S$' . $refund->get_amount() . ' and restocked' );
 }
 
-WP_CLI::log( 'Lab 7 — RESORT15 order arriving from Instagram' );
+WP_CLI::log( 'Lab 5 Part B — RESORT15 order arriving from Instagram' );
 $existing = wc_get_orders( array( 'billing_email' => 'nur.aisyah@example.com', 'limit' => 1 ) );
 if ( ! $existing ) {
 	$addr = array( 'first_name' => 'Nur', 'last_name' => 'Aisyah', 'email' => 'nur.aisyah@example.com', 'address_1' => '1 Tampines Central 5', 'city' => 'Singapore', 'postcode' => '529508', 'country' => 'SG' );

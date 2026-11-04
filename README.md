@@ -14,7 +14,7 @@ A one-day, hands-on course on setting up, running and marketing a WooCommerce st
 
 ## About the course
 
-Learners build one online store — **Harbour & Co**, a Singapore fashion label making breathable city wear for the tropics — from an empty WordPress site, with ChatGPT drafting the work and the learner checking and approving it. AI designs the homepage, shoots and writes the products, builds the catalogue CSV, drafts the store policies, writes the SEO and the launch campaign; the learner checks every fact against the brief and decides what goes live. The day runs as one storyline: set the store up with GenAI (Labs 1–5), get it found in search (Lab 6), then market the launch and read the results (Lab 7).
+Learners build one online store — **Harbour & Co**, a Singapore fashion label making breathable city wear for the tropics — from an empty WordPress site, with ChatGPT drafting the work and the learner checking and approving it. AI designs the homepage, shoots and writes the products, builds the catalogue CSV, drafts the store policies, writes the SEO and the launch campaign; the learner checks every fact against the brief and decides what goes live. The day runs as one storyline, one lab per topic: set the store up with GenAI (Labs 1–4), then get it found in search, market the launch and read the results (Lab 5).
 
 ## Learning outcomes
 
@@ -27,33 +27,29 @@ Learners build one online store — **Harbour & Co**, a Singapore fashion label 
 
 ## Topics covered
 
-1. AI for WordPress and WooCommerce — choosing ChatGPT, Gemini or Claude, model tiers, effective prompts, WordPress AI Connectors
-2. Overview of WooCommerce CMS — installing WooCommerce, the setup wizard, themes, widgets, settings, currency and tax
-3. Manage Products on WooCommerce Store — product types, AI product photos and copy, variations, categories and attributes, CSV import
-4. Manage Payments and Shipping — store policies, payment methods and gateways, shipping zones, flat rate, free shipping and local pickup
-5. Manage Sales on WooCommerce Store — orders and statuses, refunds and restocking, coupons and promotions
-6. Manage WooCommerce Performance — reports and analytics, eCommerce metrics, Google Analytics
-7. SEO in the Age of AI Search — SEO, AEO and GEO, E-E-A-T, AI for SEO, on-page SEO, digital marketing with GenAI
+1. **Overview of AI for eCommerce Store** — Generative AI tools for WooCommerce (ChatGPT, Gemini or Claude, model tiers, effective prompts, WordPress AI Connectors); setting up WooCommerce; themes, widgets and shortcodes; settings, currency, 9% GST and roles
+2. **Manage Products with AI** — products and the Product Data panel, AI product photos and galleries, variable products, shipping classes, categories, tags and attributes, downloadable products, up-sells and cross-sells, the CSV importer, the Customizer and WooCommerce Blocks
+3. **Manage Payments and Shipping with AI** — payment methods and gateways, shipping zones, flat rate, free shipping and local pickup, store policies drafted with AI
+4. **Manage Sales with AI** — orders and issues, refunds and restocking, coupons and promotions, customer replies drafted with AI
+5. **Manage Store Performance with AI** — sales reports, dashboard widgets, Google Analytics, SEO in the age of AI search (SEO, AEO, GEO, E-E-A-T), and AI marketing campaigns that measure themselves
 
 ## Labs
 
-Each lab folder holds an instructions PDF with a Prompt Playbook page, `COPY-PROMPTS.txt`, mock data, product assets and templates. All prompts are also on the offline [Lab Prompts page](labs/prompts/index.html).
+One lab per topic. Each lab folder holds an instructions PDF with a Prompt Playbook page, `COPY-PROMPTS.txt`, mock data, product assets and templates. All prompts are also on the offline [Lab Prompts page](labs/prompts/index.html).
 
 | Lab | Title |
 |---|---|
 | 1 | [Launch Harbour & Co — WooCommerce Plus an AI-Designed Homepage](labs/lab-01-launch-harbour-and-co/) |
-| 2 | [Shoot and Write a Product with AI](labs/lab-02-ai-product-photos-and-copy/) |
-| 3 | [Let AI Build the New-Season Catalogue](labs/lab-03-ai-builds-the-catalogue/) |
-| 4 | [AI Drafts the Policies, You Switch On Payments and Shipping](labs/lab-04-ai-policies-payments-shipping/) |
-| 5 | [Run a Day of Orders — Refund, Restock, Reply with AI](labs/lab-05-orders-refunds-ai-replies/) |
-| 6 | [Get Found — AI Writes the SEO, You Approve It](labs/lab-06-ai-seo/) |
-| 7 | [Launch the Resort Linen Drop — Social, Newsletter, Results](labs/lab-07-ai-digital-marketing/) |
+| 2 | [Shoot, Write and Import the New-Season Catalogue with AI](labs/lab-02-ai-product-catalogue/) |
+| 3 | [AI Drafts the Policies, You Switch On Payments and Shipping](labs/lab-03-ai-policies-payments-shipping/) |
+| 4 | [Run a Day of Orders — Refund, Restock, Reply with AI](labs/lab-04-orders-refunds-ai-replies/) |
+| 5 | [Get Found, Then Launch the Resort Linen Drop — SEO, Social, Results](labs/lab-05-ai-seo-and-campaign/) |
 
 ## Courseware
 
 | Artifact | Files |
 |---|---|
-| Slide deck (v2.0) | [PPTX](courseware/Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI-v2.0.pptx) · [PDF](courseware/Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI-v2.0.pdf) |
+| Slide deck (v2.1) | [PPTX](courseware/Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI-v2.1.pptx) · [PDF](courseware/Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI-v2.1.pdf) |
 | Lesson Plan | [DOCX](courseware/LP-Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI.docx) · [PDF](courseware/LP-Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI.pdf) |
 | Learner Guide | [DOCX](courseware/LG-Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI.docx) · [PDF](courseware/LG-Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI.pdf) · [Markdown](LG-Build%20a%20Professional%20eCommerce%20Store%20with%20Generative%20AI.md) |
 
@@ -72,7 +68,7 @@ bash setup.sh
 
 ```text
 courseware/   slide deck, Lesson Plan and Learner Guide (editable + PDF)
-labs/         seven lab folders and the offline Lab Prompts page
+labs/         five lab folders and the offline Lab Prompts page
 docker/       local WordPress + WooCommerce sandbox of the finished store
 assets/       screenshots and images referenced by the Learner Guide
 ```
